@@ -1,9 +1,84 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <groundnet>
-  <version>1</version>
+  <!--Groundnet for Campbeltown (EGEC)-->
   <parkingList>
-        <Parking index="0" type="gate" name="Helipad" lat="N55 26.604540" lon="W5 41.944380" heading="151"  radius="44" airlineCodes="" />
-        <Parking index="1" type="gate" name="Light_Aircraft_Apron" lat="N55 26.460120" lon="W5 41.779680" heading="61"  radius="44" airlineCodes="" />
-        <Parking index="2" type="gate" name="Passenger_Terminal" lat="N55 26.569500" lon="W5 41.908200" heading="270"  radius="44" airlineCodes="" />
- </parkingList>
+    <Parking airlineCodes="" heading="106.23" index="16173" lat="N55 26.189" lon="W5 39.762" name="Apron" number="" radius="18" type="gate"/>
+    <Parking airlineCodes="" heading="66.61" index="16174" lat="N55 26.164" lon="W5 39.841" name="Apron" number="" radius="14" type="gate"/>
+    <Parking airlineCodes="" heading="-71.56" index="16175" lat="N55 26.185" lon="W5 39.737" name="Passenger Terminal" number="" radius="14" type="gate"/>
+    <Parking airlineCodes="" heading="61.00" index="16176" lat="N55 26.460" lon="W5 41.780" name="Light Aircraft Apron" number="" radius="14" type="ga"/>
+  </parkingList>
+  <TaxiNodes>
+    <node holdPointType="none" index="50663" isOnRunway="0" lat="N55 26.173" lon="W5 40.200"/>
+    <node holdPointType="none" index="50666" isOnRunway="0" lat="N55 26.134" lon="W5 39.964"/>
+    <node holdPointType="none" index="50669" isOnRunway="0" lat="N55 26.134" lon="W5 39.964"/>
+    <node holdPointType="none" index="50672" isOnRunway="0" lat="N55 26.463" lon="W5 41.771"/>
+    <node holdPointType="none" index="16182" isOnRunway="0" lat="N55 26.325" lon="W5 41.704"/>
+    <node holdPointType="none" index="16183" isOnRunway="0" lat="N55 26.376" lon="W5 41.713"/>
+    <node holdPointType="none" index="16184" isOnRunway="0" lat="N55 26.421" lon="W5 41.721"/>
+    <node holdPointType="none" index="16185" isOnRunway="0" lat="N55 26.462" lon="W5 41.770"/>
+    <node holdPointType="none" index="16186" isOnRunway="0" lat="N55 26.326" lon="W5 41.212"/>
+    <node holdPointType="none" index="16187" isOnRunway="0" lat="N55 26.329" lon="W5 41.154"/>
+    <node holdPointType="none" index="16188" isOnRunway="0" lat="N55 26.099" lon="W5 39.751"/>
+    <node holdPointType="none" index="16189" isOnRunway="0" lat="N55 26.228" lon="W5 40.535"/>
+    <node holdPointType="none" index="16190" isOnRunway="0" lat="N55 26.182" lon="W5 39.836"/>
+    <node holdPointType="none" index="16191" isOnRunway="0" lat="N55 26.163" lon="W5 39.719"/>
+    <node holdPointType="none" index="16192" isOnRunway="0" lat="N55 26.060" lon="W5 39.771"/>
+    <node holdPointType="none" index="16193" isOnRunway="0" lat="N55 26.188" lon="W5 40.554"/>
+    <node holdPointType="none" index="16194" isOnRunway="1" lat="N55 26.298" lon="W5 41.541"/>
+    <node holdPointType="none" index="16195" isOnRunway="1" lat="N55 26.012" lon="W5 39.794"/>
+    <node holdPointType="none" index="16196" isOnRunway="1" lat="N55 26.141" lon="W5 40.577"/>
+    <node holdPointType="none" index="16197" isOnRunway="1" lat="N55 26.274" lon="W5 41.392"/>
+    <node holdPointType="none" index="16198" isOnRunway="0" lat="N55 26.317" lon="W5 41.252"/>
+    <node holdPointType="none" index="16199" isOnRunway="0" lat="N55 26.166" lon="W5 39.741"/>
+  </TaxiNodes>
+  <TaxiWaySegments>
+    <arc begin="16182" end="16194" isPushBackRoute="0" name=""/>
+    <arc begin="16194" end="16182" isPushBackRoute="0" name=""/>
+    <arc begin="16183" end="16182" isPushBackRoute="0" name=""/>
+    <arc begin="16182" end="16183" isPushBackRoute="0" name=""/>
+    <arc begin="16184" end="16183" isPushBackRoute="0" name=""/>
+    <arc begin="16183" end="16184" isPushBackRoute="0" name=""/>
+    <arc begin="16185" end="50672" isPushBackRoute="0" name=""/>
+    <arc begin="50672" end="16185" isPushBackRoute="0" name=""/>
+    <arc begin="16193" end="16189" isPushBackRoute="0" name=""/>
+    <arc begin="16189" end="16193" isPushBackRoute="0" name=""/>
+    <arc begin="16186" end="16198" isPushBackRoute="0" name=""/>
+    <arc begin="16198" end="16186" isPushBackRoute="0" name=""/>
+    <arc begin="16187" end="16186" isPushBackRoute="0" name=""/>
+    <arc begin="16186" end="16187" isPushBackRoute="0" name=""/>
+    <arc begin="16188" end="50669" isPushBackRoute="0" name=""/>
+    <arc begin="50669" end="16188" isPushBackRoute="0" name=""/>
+    <arc begin="16189" end="16187" isPushBackRoute="0" name=""/>
+    <arc begin="16187" end="16189" isPushBackRoute="0" name=""/>
+    <arc begin="16199" end="16190" isPushBackRoute="0" name=""/>
+    <arc begin="16190" end="16199" isPushBackRoute="0" name=""/>
+    <arc begin="16191" end="16199" isPushBackRoute="0" name=""/>
+    <arc begin="16199" end="16191" isPushBackRoute="0" name=""/>
+    <arc begin="16192" end="16188" isPushBackRoute="0" name=""/>
+    <arc begin="16188" end="16192" isPushBackRoute="0" name=""/>
+    <arc begin="16188" end="16191" isPushBackRoute="0" name=""/>
+    <arc begin="16191" end="16188" isPushBackRoute="0" name=""/>
+    <arc begin="16192" end="16195" isPushBackRoute="0" name=""/>
+    <arc begin="16195" end="16192" isPushBackRoute="0" name=""/>
+    <arc begin="16193" end="16196" isPushBackRoute="0" name=""/>
+    <arc begin="16196" end="16193" isPushBackRoute="0" name=""/>
+    <arc begin="16198" end="16197" isPushBackRoute="0" name="N"/>
+    <arc begin="16197" end="16198" isPushBackRoute="0" name="N"/>
+    <arc begin="50663" end="16189" isPushBackRoute="0" name=""/>
+    <arc begin="16189" end="50663" isPushBackRoute="0" name=""/>
+    <arc begin="50666" end="50663" isPushBackRoute="0" name=""/>
+    <arc begin="50663" end="50666" isPushBackRoute="0" name=""/>
+    <arc begin="50669" end="50666" isPushBackRoute="0" name=""/>
+    <arc begin="50666" end="50669" isPushBackRoute="0" name=""/>
+    <arc begin="50672" end="16184" isPushBackRoute="0" name=""/>
+    <arc begin="16184" end="50672" isPushBackRoute="0" name=""/>
+    <arc begin="50663" end="16173" isPushBackRoute="0" name="Apron"/>
+    <arc begin="16173" end="50663" isPushBackRoute="1" name="Apron"/>
+    <arc begin="50666" end="16174" isPushBackRoute="0" name="Apron"/>
+    <arc begin="16174" end="50666" isPushBackRoute="1" name="Apron"/>
+    <arc begin="50669" end="16175" isPushBackRoute="0" name="Passenger Terminal"/>
+    <arc begin="16175" end="50669" isPushBackRoute="0" name="Passenger Terminal"/>
+    <arc begin="50672" end="16176" isPushBackRoute="0" name="Light Aircraft Apron"/>
+    <arc begin="16176" end="50672" isPushBackRoute="0" name="Light Aircraft Apron"/>
+  </TaxiWaySegments>
 </groundnet>
