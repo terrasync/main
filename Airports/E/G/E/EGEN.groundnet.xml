@@ -1,7 +1,57 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <groundnet>
-  <version>1</version>
+  <!--Groundnet for North Ronaldsay (EGEN)-->
   <parkingList>
-        <Parking index="0" type="gate" name="Passenger_Terminal" lat="N59 22.119373" lon="W2 25.855936" heading="110.76"  radius="44" airlineCodes="" />
- </parkingList>
+    <Parking airlineCodes="" heading="110.76" index="17078" lat="N59 22.106" lon="W2 25.864" name="Passenger Terminal" number="" radius="14" type="gate"/>
+    <Parking airlineCodes="" heading="118.43" index="17079" lat="N59 22.117" lon="W2 25.854" name="Passenger Terminal" number="" radius="14" type="gate"/>
+  </parkingList>
+  <TaxiNodes>
+    <node holdPointType="none" index="50675" isOnRunway="0" lat="N59 22.104" lon="W2 25.858"/>
+    <node holdPointType="none" index="50678" isOnRunway="0" lat="N59 22.115" lon="W2 25.847"/>
+    <node holdPointType="none" index="17101" isOnRunway="0" lat="N59 22.123" lon="W2 25.838"/>
+    <node holdPointType="none" index="17102" isOnRunway="0" lat="N59 22.088" lon="W2 25.874"/>
+    <node holdPointType="none" index="17103" isOnRunway="0" lat="N59 22.062" lon="W2 25.898"/>
+    <node holdPointType="none" index="17104" isOnRunway="1" lat="N59 21.969" lon="W2 25.845"/>
+    <node holdPointType="none" index="17105" isOnRunway="1" lat="N59 22.064" lon="W2 26.049"/>
+    <node holdPointType="none" index="17106" isOnRunway="1" lat="N59 22.052" lon="W2 26.021"/>
+    <node holdPointType="none" index="17107" isOnRunway="1" lat="N59 22.049" lon="W2 25.972"/>
+    <node holdPointType="none" index="17108" isOnRunway="1" lat="N59 22.047" lon="W2 25.914"/>
+    <node holdPointType="none" index="17109" isOnRunway="1" lat="N59 22.039" lon="W2 25.994"/>
+    <node holdPointType="none" index="17110" isOnRunway="1" lat="N59 22.016" lon="W2 25.945"/>
+    <node holdPointType="none" index="17111" isOnRunway="1" lat="N59 22.008" lon="W2 25.927"/>
+    <node holdPointType="none" index="17112" isOnRunway="1" lat="N59 21.999" lon="W2 25.909"/>
+    <node holdPointType="none" index="17113" isOnRunway="1" lat="N59 21.994" lon="W2 25.940"/>
+    <node holdPointType="none" index="17114" isOnRunway="1" lat="N59 22.043" lon="W2 25.818"/>
+    <node holdPointType="none" index="17115" isOnRunway="1" lat="N59 22.063" lon="W2 26.285"/>
+    <node holdPointType="none" index="17116" isOnRunway="1" lat="N59 22.054" lon="W2 26.068"/>
+    <node holdPointType="none" index="17117" isOnRunway="1" lat="N59 22.046" lon="W2 25.889"/>
+    <node holdPointType="none" index="17118" isOnRunway="1" lat="N59 22.033" lon="W2 25.901"/>
+    <node holdPointType="none" index="17119" isOnRunway="1" lat="N59 22.045" lon="W2 25.863"/>
+    <node holdPointType="none" index="17120" isOnRunway="1" lat="N59 22.021" lon="W2 25.913"/>
+    <node holdPointType="none" index="17121" isOnRunway="1" lat="N59 21.967" lon="W2 25.967"/>
+    <node holdPointType="none" index="17122" isOnRunway="1" lat="N59 22.118" lon="W2 25.817"/>
+    <node holdPointType="none" index="17123" isOnRunway="1" lat="N59 22.083" lon="W2 25.852"/>
+    <node holdPointType="none" index="17124" isOnRunway="1" lat="N59 22.057" lon="W2 25.877"/>
+    <node holdPointType="none" index="17125" isOnRunway="1" lat="N59 22.090" lon="W2 26.103"/>
+  </TaxiNodes>
+  <TaxiWaySegments>
+    <arc begin="17102" end="17103" isPushBackRoute="0" name=""/>
+    <arc begin="17103" end="17102" isPushBackRoute="0" name=""/>
+    <arc begin="17101" end="50678" isPushBackRoute="0" name=""/>
+    <arc begin="50678" end="17101" isPushBackRoute="0" name=""/>
+    <arc begin="17122" end="17101" isPushBackRoute="0" name=""/>
+    <arc begin="17101" end="17122" isPushBackRoute="0" name=""/>
+    <arc begin="17102" end="17123" isPushBackRoute="0" name=""/>
+    <arc begin="17123" end="17102" isPushBackRoute="0" name=""/>
+    <arc begin="17108" end="17103" isPushBackRoute="0" name=""/>
+    <arc begin="17103" end="17108" isPushBackRoute="0" name=""/>
+    <arc begin="50675" end="17102" isPushBackRoute="0" name=""/>
+    <arc begin="17102" end="50675" isPushBackRoute="0" name=""/>
+    <arc begin="50678" end="50675" isPushBackRoute="0" name=""/>
+    <arc begin="50675" end="50678" isPushBackRoute="0" name=""/>
+    <arc begin="50675" end="17078" isPushBackRoute="0" name="Passenger Terminal"/>
+    <arc begin="17078" end="50675" isPushBackRoute="1" name="Passenger Terminal"/>
+    <arc begin="50678" end="17079" isPushBackRoute="0" name="Passenger Terminal"/>
+    <arc begin="17079" end="50678" isPushBackRoute="0" name="Passenger Terminal"/>
+  </TaxiWaySegments>
 </groundnet>
