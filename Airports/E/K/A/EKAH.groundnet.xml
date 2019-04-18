@@ -13,7 +13,7 @@
              lat="N56 18.435"
              lon="E10 37.495"
              heading="51.36"
-             radius="25"
+             radius="20"
              airlineCodes="" />
 
     <Parking index="1"
@@ -43,7 +43,7 @@
              lat="N56 18.426"
              lon="E10 37.581"
              heading="58.75"
-             radius="25"
+             radius="20"
              airlineCodes="" />
 
     <Parking index="4"
@@ -53,7 +53,7 @@
              lat="N56 18.418"
              lon="E10 37.649"
              heading="43.96"
-             radius="25"
+             radius="20"
              airlineCodes="" />
 
     <Parking index="5"
@@ -63,7 +63,7 @@
              lat="N56 18.415"
              lon="E10 37.735"
              heading="331.01"
-             radius="25"
+             radius="20"
              airlineCodes="" />
 
     <Parking index="6"
@@ -73,7 +73,7 @@
              lat="N56 18.452"
              lon="E10 37.351"
              heading="12.9272"
-             radius="20"
+             radius="26"
              airlineCodes="" />
 
     <Parking index="7"
@@ -189,7 +189,7 @@
     <node index="43" lat="N56 18.351" lon="E10 37.805" isOnRunway="0" holdPointType="none" />
     <node index="44" lat="N56 18.267" lon="E10 37.778" isOnRunway="0" holdPointType="none" />
     <node index="45" lat="N56 18.390" lon="E10 37.617" isOnRunway="0" holdPointType="none" />
-    <node index="46" lat="N56 18.401" lon="E10 37.454" isOnRunway="0" holdPointType="none" />
+    <node index="46" lat="N56 18.404" lon="E10 37.454" isOnRunway="0" holdPointType="none" />
     <node index="47" lat="N56 18.417" lon="E10 37.411" isOnRunway="0" holdPointType="none" />
     <node index="48" lat="N56 18.422" lon="E10 37.374" isOnRunway="0" holdPointType="none" />
     <node index="49" lat="N56 18.432" lon="E10 37.359" isOnRunway="0" holdPointType="none" />
@@ -265,24 +265,24 @@
     <arc begin="12" end="63" isPushBackRoute="0" name="" />
     <arc begin="13" end="62" isPushBackRoute="0" name="" />
     <arc begin="14" end="69" isPushBackRoute="0" name="" />
-    <arc begin="15" end="54" isPushBackRoute="0" name="" />
-    <arc begin="54" end="15" isPushBackRoute="0" name="" />
-    <arc begin="15" end="57" isPushBackRoute="0" name="" />
-    <arc begin="57" end="15" isPushBackRoute="0" name="" />
+    <arc begin="15" end="54" isPushBackRoute="0" name="G" />
+    <arc begin="54" end="15" isPushBackRoute="0" name="G" />
+    <arc begin="15" end="57" isPushBackRoute="0" name="G" />
+    <arc begin="57" end="15" isPushBackRoute="0" name="G" />
     <arc begin="16" end="27" isPushBackRoute="0" name="" />
     <arc begin="27" end="16" isPushBackRoute="0" name="" />
     <arc begin="16" end="36" isPushBackRoute="0" name="" />
     <arc begin="36" end="16" isPushBackRoute="0" name="" />
-    <arc begin="16" end="37" isPushBackRoute="0" name="" />
-    <arc begin="37" end="16" isPushBackRoute="0" name="" />
+    <arc begin="16" end="37" isPushBackRoute="0" name="W" />
+    <arc begin="37" end="16" isPushBackRoute="0" name="W" />
     <arc begin="17" end="23" isPushBackRoute="0" name="" />
     <arc begin="23" end="17" isPushBackRoute="0" name="" />
     <arc begin="17" end="33" isPushBackRoute="0" name="" />
     <arc begin="33" end="17" isPushBackRoute="0" name="" />
     <arc begin="17" end="35" isPushBackRoute="0" name="" />
     <arc begin="35" end="17" isPushBackRoute="0" name="" />
-    <arc begin="17" end="44" isPushBackRoute="0" name="" />
-    <arc begin="44" end="17" isPushBackRoute="0" name="" />
+    <arc begin="17" end="44" isPushBackRoute="0" name="B" />
+    <arc begin="44" end="17" isPushBackRoute="0" name="B" />
     <arc begin="18" end="19" isPushBackRoute="0" name="" />
     <arc begin="19" end="18" isPushBackRoute="0" name="" />
     <arc begin="19" end="20" isPushBackRoute="0" name="" />
@@ -317,73 +317,75 @@
     <arc begin="35" end="34" isPushBackRoute="0" name="" />
     <arc begin="34" end="36" isPushBackRoute="0" name="" />
     <arc begin="36" end="34" isPushBackRoute="0" name="" />
-    <arc begin="34" end="44" isPushBackRoute="0" name="" />
-    <arc begin="44" end="34" isPushBackRoute="0" name="" />
-    <arc begin="35" end="44" isPushBackRoute="0" name="" />
-    <arc begin="44" end="35" isPushBackRoute="0" name="" />
-    <arc begin="36" end="37" isPushBackRoute="0" name="" />
-    <arc begin="37" end="36" isPushBackRoute="0" name="" />
-    <arc begin="37" end="38" isPushBackRoute="0" name="" />
-    <arc begin="38" end="37" isPushBackRoute="0" name="" />
-    <arc begin="38" end="40" isPushBackRoute="0" name="" />
-    <arc begin="40" end="38" isPushBackRoute="0" name="" />
-    <arc begin="38" end="46" isPushBackRoute="0" name="" />
-    <arc begin="46" end="38" isPushBackRoute="0" name="" />
+    <arc begin="34" end="44" isPushBackRoute="0" name="B" />
+    <arc begin="44" end="34" isPushBackRoute="0" name="B" />
+    <arc begin="35" end="44" isPushBackRoute="0" name="B" />
+    <arc begin="44" end="35" isPushBackRoute="0" name="B" />
+    <arc begin="36" end="37" isPushBackRoute="0" name="W" />
+    <arc begin="37" end="36" isPushBackRoute="0" name="W" />
+    <arc begin="37" end="38" isPushBackRoute="0" name="W" />
+    <arc begin="38" end="37" isPushBackRoute="0" name="W" />
+    <arc begin="38" end="40" isPushBackRoute="0" name="W" />
+    <arc begin="40" end="38" isPushBackRoute="0" name="W" />
+    <arc begin="38" end="46" isPushBackRoute="0" name="W" />
+    <arc begin="46" end="38" isPushBackRoute="0" name="W" />
     <arc begin="39" end="0" isPushBackRoute="0" name="" />
     <arc begin="39" end="46" isPushBackRoute="0" name="" />
     <arc begin="46" end="39" isPushBackRoute="0" name="" />
-    <arc begin="40" end="88" isPushBackRoute="0" name="" />
-    <arc begin="88" end="40" isPushBackRoute="0" name="" />
-    <arc begin="41" end="42" isPushBackRoute="0" name="" />
-    <arc begin="42" end="41" isPushBackRoute="0" name="" />
+    <arc begin="40" end="88" isPushBackRoute="0" name="B" />
+    <arc begin="88" end="40" isPushBackRoute="0" name="B" />
+    <arc begin="41" end="42" isPushBackRoute="0" name="B" />
+    <arc begin="42" end="41" isPushBackRoute="0" name="B" />
     <arc begin="41" end="97" isPushBackRoute="0" name="" />
-    <arc begin="41" end="101" isPushBackRoute="0" name="" />
-    <arc begin="101" end="41" isPushBackRoute="0" name="" />
-    <arc begin="42" end="43" isPushBackRoute="0" name="" />
-    <arc begin="43" end="42" isPushBackRoute="0" name="" />
-    <arc begin="43" end="44" isPushBackRoute="0" name="" />
-    <arc begin="44" end="43" isPushBackRoute="0" name="" />
-    <arc begin="45" end="91" isPushBackRoute="0" name="" />
-    <arc begin="91" end="45" isPushBackRoute="0" name="" />
+    <arc begin="41" end="101" isPushBackRoute="0" name="B" />
+    <arc begin="101" end="41" isPushBackRoute="0" name="B" />
+    <arc begin="42" end="43" isPushBackRoute="0" name="B" />
+    <arc begin="43" end="42" isPushBackRoute="0" name="B" />
+    <arc begin="43" end="44" isPushBackRoute="0" name="B" />
+    <arc begin="44" end="43" isPushBackRoute="0" name="B" />
+    <arc begin="45" end="91" isPushBackRoute="0" name="B" />
+    <arc begin="91" end="45" isPushBackRoute="0" name="B" />
     <arc begin="45" end="94" isPushBackRoute="0" name="" />
-    <arc begin="45" end="101" isPushBackRoute="0" name="" />
-    <arc begin="101" end="45" isPushBackRoute="0" name="" />
-    <arc begin="46" end="47" isPushBackRoute="0" name="" />
-    <arc begin="47" end="46" isPushBackRoute="0" name="" />
-    <arc begin="47" end="48" isPushBackRoute="0" name="" />
-    <arc begin="48" end="47" isPushBackRoute="0" name="" />
+    <arc begin="45" end="101" isPushBackRoute="0" name="B" />
+    <arc begin="101" end="45" isPushBackRoute="0" name="B" />
+    <arc begin="46" end="47" isPushBackRoute="0" name="B" />
+    <arc begin="47" end="46" isPushBackRoute="0" name="B" />
+    <arc begin="47" end="48" isPushBackRoute="0" name="B" />
+    <arc begin="48" end="47" isPushBackRoute="0" name="B" />
     <arc begin="47" end="85" isPushBackRoute="0" name="" />
     <arc begin="85" end="47" isPushBackRoute="0" name="" />
-    <arc begin="48" end="83" isPushBackRoute="0" name="" />
-    <arc begin="83" end="48" isPushBackRoute="0" name="" />
-    <arc begin="49" end="50" isPushBackRoute="0" name="" />
-    <arc begin="50" end="49" isPushBackRoute="0" name="" />
-    <arc begin="49" end="83" isPushBackRoute="0" name="" />
-    <arc begin="83" end="49" isPushBackRoute="0" name="" />
-    <arc begin="50" end="51" isPushBackRoute="0" name="" />
-    <arc begin="51" end="50" isPushBackRoute="0" name="" />
-    <arc begin="51" end="52" isPushBackRoute="0" name="" />
-    <arc begin="52" end="51" isPushBackRoute="0" name="" />
+    <arc begin="48" end="83" isPushBackRoute="0" name="B" />
+    <arc begin="83" end="48" isPushBackRoute="0" name="B" />
+    <arc begin="49" end="50" isPushBackRoute="0" name="G" />
+    <arc begin="50" end="49" isPushBackRoute="0" name="G" />
+    <arc begin="49" end="83" isPushBackRoute="0" name="B" />
+    <arc begin="83" end="49" isPushBackRoute="0" name="B" />
+    <arc begin="50" end="51" isPushBackRoute="0" name="G" />
+    <arc begin="51" end="50" isPushBackRoute="0" name="G" />
+    <arc begin="50" end="102" isPushBackRoute="1" name="" />
+    <arc begin="102" end="50" isPushBackRoute="1" name="" />
+    <arc begin="51" end="52" isPushBackRoute="0" name="G" />
+    <arc begin="52" end="51" isPushBackRoute="0" name="G" />
     <arc begin="51" end="73" isPushBackRoute="0" name="" />
-    <arc begin="52" end="53" isPushBackRoute="0" name="" />
-    <arc begin="53" end="52" isPushBackRoute="0" name="" />
+    <arc begin="52" end="53" isPushBackRoute="0" name="G" />
+    <arc begin="53" end="52" isPushBackRoute="0" name="G" />
     <arc begin="52" end="69" isPushBackRoute="0" name="" />
     <arc begin="69" end="52" isPushBackRoute="0" name="" />
-    <arc begin="53" end="54" isPushBackRoute="0" name="" />
-    <arc begin="54" end="53" isPushBackRoute="0" name="" />
-    <arc begin="55" end="60" isPushBackRoute="0" name="" />
-    <arc begin="60" end="55" isPushBackRoute="0" name="" />
+    <arc begin="53" end="54" isPushBackRoute="0" name="G" />
+    <arc begin="54" end="53" isPushBackRoute="0" name="G" />
+    <arc begin="55" end="60" isPushBackRoute="0" name="G" />
+    <arc begin="60" end="55" isPushBackRoute="0" name="G" />
     <arc begin="55" end="61" isPushBackRoute="0" name="" />
-    <arc begin="56" end="58" isPushBackRoute="0" name="" />
-    <arc begin="58" end="56" isPushBackRoute="0" name="" />
-    <arc begin="56" end="59" isPushBackRoute="0" name="" />
-    <arc begin="59" end="56" isPushBackRoute="0" name="" />
+    <arc begin="56" end="58" isPushBackRoute="0" name="G" />
+    <arc begin="58" end="56" isPushBackRoute="0" name="G" />
+    <arc begin="56" end="59" isPushBackRoute="0" name="G" />
+    <arc begin="59" end="56" isPushBackRoute="0" name="G" />
     <arc begin="56" end="65" isPushBackRoute="0" name="" />
-    <arc begin="57" end="58" isPushBackRoute="0" name="" />
-    <arc begin="58" end="57" isPushBackRoute="0" name="" />
+    <arc begin="57" end="58" isPushBackRoute="0" name="G" />
+    <arc begin="58" end="57" isPushBackRoute="0" name="G" />
     <arc begin="58" end="11" isPushBackRoute="0" name="" />
-    <arc begin="59" end="60" isPushBackRoute="0" name="" />
-    <arc begin="60" end="59" isPushBackRoute="0" name="" />
+    <arc begin="59" end="60" isPushBackRoute="0" name="G" />
+    <arc begin="60" end="59" isPushBackRoute="0" name="G" />
     <arc begin="60" end="12" isPushBackRoute="0" name="" />
     <arc begin="61" end="13" isPushBackRoute="0" name="" />
     <arc begin="62" end="59" isPushBackRoute="0" name="" />
@@ -418,10 +420,10 @@
     <arc begin="84" end="85" isPushBackRoute="0" name="" />
     <arc begin="85" end="1" isPushBackRoute="0" name="" />
     <arc begin="86" end="39" isPushBackRoute="0" name="" />
-    <arc begin="87" end="88" isPushBackRoute="0" name="" />
-    <arc begin="88" end="87" isPushBackRoute="0" name="" />
-    <arc begin="87" end="91" isPushBackRoute="0" name="" />
-    <arc begin="91" end="87" isPushBackRoute="0" name="" />
+    <arc begin="87" end="88" isPushBackRoute="0" name="B" />
+    <arc begin="88" end="87" isPushBackRoute="0" name="B" />
+    <arc begin="87" end="91" isPushBackRoute="0" name="B" />
+    <arc begin="91" end="87" isPushBackRoute="0" name="B" />
     <arc begin="88" end="90" isPushBackRoute="0" name="" />
     <arc begin="90" end="88" isPushBackRoute="0" name="" />
     <arc begin="89" end="90" isPushBackRoute="0" name="" />
@@ -435,9 +437,9 @@
     <arc begin="98" end="99" isPushBackRoute="0" name="" />
     <arc begin="99" end="96" isPushBackRoute="0" name="" />
     <arc begin="100" end="101" isPushBackRoute="0" name="" />
-    <arc begin="50" end="102" isPushBackRoute="1" name="" />
-    <arc begin="102" end="50" isPushBackRoute="1" name="" />
     <arc begin="102" end="103" isPushBackRoute="1" name="" />
     <arc begin="103" end="102" isPushBackRoute="1" name="" />
+    <arc begin="40" end="46" isPushBackRoute="0" name="B" />
+    <arc begin="46" end="40" isPushBackRoute="0" name="B" />
   </TaxiWaySegments>
 </groundnet>
