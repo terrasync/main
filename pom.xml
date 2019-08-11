@@ -19,22 +19,44 @@
 		<dependency>
 			<groupId>de.keithpaterson</groupId>
 			<artifactId>groundnet_checker</artifactId>
-			<version>1.5</version>
+			<version>1.6</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
 	<build>
-	<plugins>
-	<plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.0</version>
-        <configuration>
-            <dependenciesToScan>
-                <dependency>de.keithpaterson:groundnet_checker</dependency>
-            </dependenciesToScan>
-        </configuration>
-    </plugin>
-	</plugins>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.0</version>
+				<configuration>
+					<dependenciesToScan>
+						<dependency>de.keithpaterson:groundnet_checker</dependency>
+					</dependenciesToScan>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>xml-maven-plugin</artifactId>
+
+				<executions>
+					<execution>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>transform</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<transformationSets>
+						<transformationSet>
+							<dir>target/surefire-reports</dir>
+							<includes>*.xml</includes>
+							<stylesheet>junit.xsl</stylesheet>
+						</transformationSet>
+					</transformationSets>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 </project>
