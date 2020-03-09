@@ -2,6 +2,28 @@
 <groundnet>
   <version>1</version>
   <parkingList>
-        <Parking index="0" type="gate" name="Apron" lat="N59 15.132419" lon="W2 34.504690" heading="73.77"  radius="44" airlineCodes="" />
- </parkingList>
+    <Parking index="0" type="gate" name="Apron" lat="N59 15.132" lon="W02 34.505" heading="469.90497678630004" radius="26"/>
+  </parkingList>
+  <TaxiNodes>
+    <node index="2" lat="N59 15.099" lon="W02 34.433" isOnRunway="0"/>
+    <node index="3" lat="N59 15.049" lon="W02 34.47" isOnRunway="0"/>
+    <node index="4" lat="N59 14.898" lon="W02 34.577" isOnRunway="0"/>
+    <node index="5" lat="N59 14.898" lon="W02 34.591" isOnRunway="1"/>
+    <node index="6" lat="N59 15.118" lon="W02 34.436" isOnRunway="0"/>
+    <node index="7" lat="N59 15.123" lon="W02 34.413" isOnRunway="1"/>
+  </TaxiNodes>
+  <TaxiWaySegments>
+    <arc begin="0" end="6" isPushBackRoute="0"/>
+    <arc begin="6" end="0" isPushBackRoute="0"/>
+    <arc begin="6" end="2" isPushBackRoute="0"/>
+    <arc begin="2" end="6" isPushBackRoute="0"/>
+    <arc begin="3" end="4" isPushBackRoute="0"/>
+    <arc begin="4" end="3" isPushBackRoute="0"/>
+    <arc begin="4" end="5" isPushBackRoute="0"/>
+    <arc begin="5" end="4" isPushBackRoute="0"/>
+    <arc begin="6" end="7" isPushBackRoute="0"/>
+    <arc begin="7" end="6" isPushBackRoute="0"/>
+    <arc begin="3" end="2" isPushBackRoute="0" name="0"/>
+    <arc begin="2" end="3" isPushBackRoute="0" name="0"/>
+  </TaxiWaySegments>
 </groundnet>
