@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- Groundnet and rwyuse files submitted by Bob Arthur -->
+<rwyuse> <!-- Times are in UTC -->
+  <com>  <!-- Commercial Traffic-->
+    <wind tail="7"
+          cross="20" />
+    <time start = "00:00"
+          end   = "24:00"
+          schedule = "day"/>
+  </com> 
+
+  <gen> <!-- General Aviation --> 
+    <wind tail="7"
+          cross="20"/>
+    <time start= "00:00"
+          end  = "24:00"
+          schedule = "general"/>
+  </gen>
+  
+<!-- commercial schedule -->
+<schedule name="day">
+  <takeoff>28L, 10R, 22L, 04R</takeoff>
+  <takeoff>22L, 04R, 28L, 10R</takeoff>
+  <takeoff>27R, 09L, 27L, 09R</takeoff>
+  <takeoff>27L, 09R, 27R, 09L</takeoff>
+  <landing>28C, 10C, 28R, 10L</landing>
+  <landing>28R, 10L, 28C, 10C</landing>
+</schedule>
+
+<!-- general schedule -->
+<schedule name="general">
+  <takeoff>27R, 09L, 27L, 09R</takeoff>
+  <takeoff>27L, 09R, 27R, 09L</takeoff>
+  <landing>28C, 10C, 28R, 10L</landing>
+  <landing>28R, 10L, 28C, 10C</landing>
+</schedule>
+
+</rwyuse>
