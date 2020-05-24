@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <groundnet>
-   <version>1</version>
+   <version>24MAY20 w Taxidraw</version>
   <frequencies>
     <AWOS>12780</AWOS>
     <GROUND>12165</GROUND>
@@ -974,7 +974,7 @@
     <node index="246" lat="N13 41.101" lon="E100 45.064" isOnRunway="0" holdPointType="none" />
     <node index="247" lat="N13 41.375" lon="E100 45.108" isOnRunway="0" holdPointType="none" />
     <node index="248" lat="N13 41.200" lon="E100 44.888" isOnRunway="0" holdPointType="none" />
-    <node index="249" lat="N13 41.718" lon="E10 44.752" isOnRunway="0" holdPointType="none" />
+    <node index="249" lat="N13 41.718" lon="E100 44.752" isOnRunway="0" holdPointType="none" />
     <node index="250" lat="N13 41.886" lon="E100 44.789" isOnRunway="0" holdPointType="none" />
     <node index="251" lat="N13 41.734" lon="E100 44.753" isOnRunway="0" holdPointType="PushBack" />
     <node index="252" lat="N13 41.490" lon="E100 45.413" isOnRunway="0" holdPointType="none" />
@@ -1078,7 +1078,7 @@
     <node index="350" lat="N13 41.367" lon="E100 44.673" isOnRunway="0" holdPointType="none" />
     <node index="351" lat="N13 41.326" lon="E100 44.663" isOnRunway="0" holdPointType="none" />
     <node index="352" lat="N13 41.864" lon="E100 44.791" isOnRunway="0" holdPointType="none" />
-    <node index="353" lat="N13 41.798" lon="E10 44.773" isOnRunway="0" holdPointType="none" />
+    <node index="353" lat="N13 41.798" lon="E100 44.773" isOnRunway="0" holdPointType="none" />
     <node index="354" lat="N13 41.832" lon="E100 44.783" isOnRunway="0" holdPointType="none" />
     <node index="355" lat="N13 41.759" lon="E100 44.763" isOnRunway="0" holdPointType="none" />
     <node index="356" lat="N13 41.795" lon="E100 44.785" isOnRunway="0" holdPointType="none" />
@@ -1240,6 +1240,22 @@
     <arc begin="71" end="61" isPushBackRoute="1" name="" />
     <arc begin="62" end="375" isPushBackRoute="1" name="" />
     <arc begin="375" end="62" isPushBackRoute="1" name="" />
+    <arc begin="63" end="378" isPushBackRoute="1" name="" />
+    <arc begin="378" end="63" isPushBackRoute="1" name="" />
+    <arc begin="64" end="379" isPushBackRoute="1" name="" />
+    <arc begin="379" end="64" isPushBackRoute="1" name="" />
+    <arc begin="65" end="380" isPushBackRoute="1" name="" />
+    <arc begin="380" end="65" isPushBackRoute="1" name="" />
+    <arc begin="66" end="382" isPushBackRoute="1" name="" />
+    <arc begin="382" end="66" isPushBackRoute="1" name="" />
+    <arc begin="67" end="383" isPushBackRoute="1" name="" />
+    <arc begin="383" end="67" isPushBackRoute="1" name="" />
+    <arc begin="68" end="384" isPushBackRoute="1" name="" />
+    <arc begin="384" end="68" isPushBackRoute="1" name="" />
+    <arc begin="69" end="385" isPushBackRoute="1" name="" />
+    <arc begin="385" end="69" isPushBackRoute="1" name="" />
+    <arc begin="70" end="290" isPushBackRoute="1" name="" />
+    <arc begin="290" end="70" isPushBackRoute="1" name="" />
     <arc begin="71" end="255" isPushBackRoute="1" name="" />
     <arc begin="255" end="71" isPushBackRoute="1" name="" />
     <arc begin="72" end="265" isPushBackRoute="1" name="" />
@@ -1270,10 +1286,10 @@
     <arc begin="357" end="83" isPushBackRoute="1" name="" />
     <arc begin="84" end="85" isPushBackRoute="1" name="" />
     <arc begin="85" end="84" isPushBackRoute="1" name="" />
-    <arc begin="84" end="385" isPushBackRoute="0" name="" />
-    <arc begin="385" end="84" isPushBackRoute="0" name="" />
     <arc begin="84" end="291" isPushBackRoute="0" name="" />
     <arc begin="291" end="84" isPushBackRoute="0" name="" />
+    <arc begin="84" end="385" isPushBackRoute="0" name="" />
+    <arc begin="385" end="84" isPushBackRoute="0" name="" />
     <arc begin="86" end="132" isPushBackRoute="0" name="1353" />
     <arc begin="132" end="86" isPushBackRoute="0" name="1353" />
     <arc begin="86" end="133" isPushBackRoute="0" name="" />
@@ -1484,10 +1500,10 @@
     <arc begin="153" end="218" isPushBackRoute="0" name="1444" />
     <arc begin="153" end="230" isPushBackRoute="0" name="" />
     <arc begin="230" end="153" isPushBackRoute="0" name="" />
-    <arc begin="155" end="381" isPushBackRoute="1" name="1454" />
-    <arc begin="381" end="155" isPushBackRoute="1" name="1454" />
     <arc begin="155" end="378" isPushBackRoute="0" name="" />
     <arc begin="378" end="155" isPushBackRoute="0" name="" />
+    <arc begin="155" end="381" isPushBackRoute="1" name="1454" />
+    <arc begin="381" end="155" isPushBackRoute="1" name="1454" />
     <arc begin="156" end="160" isPushBackRoute="0" name="" />
     <arc begin="160" end="156" isPushBackRoute="0" name="" />
     <arc begin="157" end="229" isPushBackRoute="0" name="1469" />
@@ -1594,10 +1610,10 @@
     <arc begin="333" end="195" isPushBackRoute="1" name="" />
     <arc begin="196" end="265" isPushBackRoute="0" name="" />
     <arc begin="265" end="196" isPushBackRoute="0" name="" />
-    <arc begin="196" end="382" isPushBackRoute="0" name="1646" />
-    <arc begin="382" end="196" isPushBackRoute="0" name="1646" />
     <arc begin="196" end="335" isPushBackRoute="0" name="" />
     <arc begin="335" end="196" isPushBackRoute="0" name="" />
+    <arc begin="196" end="382" isPushBackRoute="0" name="1646" />
+    <arc begin="382" end="196" isPushBackRoute="0" name="1646" />
     <arc begin="197" end="149" isPushBackRoute="0" name="1437" />
     <arc begin="197" end="198" isPushBackRoute="0" name="" />
     <arc begin="199" end="200" isPushBackRoute="0" name="1675" />
@@ -1638,6 +1654,8 @@
     <arc begin="211" end="303" isPushBackRoute="0" name="" />
     <arc begin="212" end="304" isPushBackRoute="1" name="" />
     <arc begin="304" end="212" isPushBackRoute="1" name="" />
+    <arc begin="212" end="386" isPushBackRoute="1" name="" />
+    <arc begin="386" end="212" isPushBackRoute="1" name="" />
     <arc begin="213" end="308" isPushBackRoute="1" name="" />
     <arc begin="308" end="213" isPushBackRoute="1" name="" />
     <arc begin="213" end="309" isPushBackRoute="0" name="" />
@@ -1664,8 +1682,12 @@
     <arc begin="223" end="134" isPushBackRoute="0" name="" />
     <arc begin="223" end="220" isPushBackRoute="0" name="" />
     <arc begin="223" end="221" isPushBackRoute="0" name="" />
+    <arc begin="224" end="345" isPushBackRoute="0" name="" />
+    <arc begin="345" end="224" isPushBackRoute="0" name="" />
     <arc begin="224" end="348" isPushBackRoute="1" name="" />
     <arc begin="348" end="224" isPushBackRoute="1" name="" />
+    <arc begin="224" end="381" isPushBackRoute="0" name="1454" />
+    <arc begin="381" end="224" isPushBackRoute="0" name="1454" />
     <arc begin="225" end="231" isPushBackRoute="1" name="" />
     <arc begin="231" end="225" isPushBackRoute="1" name="" />
     <arc begin="225" end="232" isPushBackRoute="1" name="" />
@@ -1674,8 +1696,6 @@
     <arc begin="229" end="160" isPushBackRoute="0" name="1469" />
     <arc begin="230" end="380" isPushBackRoute="0" name="" />
     <arc begin="380" end="230" isPushBackRoute="0" name="" />
-    <arc begin="224" end="345" isPushBackRoute="0" name="" />
-    <arc begin="345" end="224" isPushBackRoute="0" name="" />
     <arc begin="231" end="348" isPushBackRoute="1" name="" />
     <arc begin="348" end="231" isPushBackRoute="1" name="" />
     <arc begin="233" end="100" isPushBackRoute="0" name="" />
@@ -1848,14 +1868,12 @@
     <arc begin="331" end="195" isPushBackRoute="0" name="" />
     <arc begin="331" end="332" isPushBackRoute="1" name="" />
     <arc begin="332" end="331" isPushBackRoute="1" name="" />
-    <arc begin="382" end="334" isPushBackRoute="1" name="" />
     <arc begin="334" end="382" isPushBackRoute="1" name="" />
-    <arc begin="382" end="383" isPushBackRoute="0" name="" />
-    <arc begin="383" end="384" isPushBackRoute="0" name="" />
-    <arc begin="383" end="336" isPushBackRoute="1" name="" />
+    <arc begin="382" end="334" isPushBackRoute="1" name="" />
     <arc begin="336" end="383" isPushBackRoute="1" name="" />
-    <arc begin="384" end="337" isPushBackRoute="1" name="" />
+    <arc begin="383" end="336" isPushBackRoute="1" name="" />
     <arc begin="337" end="384" isPushBackRoute="1" name="" />
+    <arc begin="384" end="337" isPushBackRoute="1" name="" />
     <arc begin="339" end="342" isPushBackRoute="1" name="" />
     <arc begin="342" end="339" isPushBackRoute="1" name="" />
     <arc begin="340" end="343" isPushBackRoute="1" name="" />
@@ -1866,12 +1884,10 @@
     <arc begin="346" end="345" isPushBackRoute="1" name="" />
     <arc begin="347" end="348" isPushBackRoute="1" name="" />
     <arc begin="348" end="347" isPushBackRoute="1" name="" />
-    <arc begin="378" end="349" isPushBackRoute="1" name="" />
     <arc begin="349" end="378" isPushBackRoute="1" name="" />
-    <arc begin="378" end="379" isPushBackRoute="0" name="" />
-    <arc begin="379" end="350" isPushBackRoute="1" name="" />
+    <arc begin="378" end="349" isPushBackRoute="1" name="" />
     <arc begin="350" end="379" isPushBackRoute="1" name="" />
-    <arc begin="379" end="380" isPushBackRoute="0" name="" />
+    <arc begin="379" end="350" isPushBackRoute="1" name="" />
     <arc begin="351" end="380" isPushBackRoute="1" name="" />
     <arc begin="380" end="351" isPushBackRoute="1" name="" />
     <arc begin="352" end="357" isPushBackRoute="0" name="1229" />
@@ -1899,25 +1915,9 @@
     <arc begin="377" end="375" isPushBackRoute="1" name="" />
     <arc begin="376" end="377" isPushBackRoute="1" name="" />
     <arc begin="377" end="376" isPushBackRoute="1" name="" />
-    <arc begin="378" end="63" isPushBackRoute="1" name="" />
-    <arc begin="63" end="378" isPushBackRoute="1" name="" />
-    <arc begin="64" end="379" isPushBackRoute="1" name="" />
-    <arc begin="379" end="64" isPushBackRoute="1" name="" />
-    <arc begin="65" end="380" isPushBackRoute="1" name="" />
-    <arc begin="380" end="65" isPushBackRoute="1" name="" />
-    <arc begin="381" end="224" isPushBackRoute="0" name="1454" />
-    <arc begin="224" end="381" isPushBackRoute="0" name="1454" />
-    <arc begin="66" end="382" isPushBackRoute="1" name="" />
-    <arc begin="382" end="66" isPushBackRoute="1" name="" />
-    <arc begin="67" end="383" isPushBackRoute="1" name="" />
-    <arc begin="383" end="67" isPushBackRoute="1" name="" />
-    <arc begin="68" end="384" isPushBackRoute="1" name="" />
-    <arc begin="384" end="68" isPushBackRoute="1" name="" />
-    <arc begin="69" end="385" isPushBackRoute="1" name="" />
-    <arc begin="385" end="69" isPushBackRoute="1" name="" />
-    <arc begin="290" end="70" isPushBackRoute="1" name="" />
-    <arc begin="70" end="290" isPushBackRoute="1" name="" />
-    <arc begin="386" end="212" isPushBackRoute="1" name="" />
-    <arc begin="212" end="386" isPushBackRoute="1" name="" />
+    <arc begin="378" end="379" isPushBackRoute="0" name="" />
+    <arc begin="379" end="380" isPushBackRoute="0" name="" />
+    <arc begin="382" end="383" isPushBackRoute="0" name="" />
+    <arc begin="383" end="384" isPushBackRoute="0" name="" />
   </TaxiWaySegments>
 </groundnet>
