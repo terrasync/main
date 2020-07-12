@@ -647,6 +647,7 @@
     <node index="626" lat="S23 26.343" lon="W46 28.827" isOnRunway="0" holdPointType="PushBack" />
     <node index="627" lat="S23 25.707" lon="W46 28.558" isOnRunway="0" holdPointType="none" />
     <node index="628" lat="S23 25.730" lon="W46 28.550" isOnRunway="0" holdPointType="none" />
+    <node index="629" lat="S23 26.031" lon="W46 28.903" isOnRunway="1" holdPointType="none" />
   </TaxiNodes>
   <TaxiWaySegments>
     <arc begin="0" end="584" isPushBackRoute="1" name="" />
@@ -2030,5 +2031,7 @@
     <arc begin="628" end="620" isPushBackRoute="0" name="" />
     <arc begin="627" end="628" isPushBackRoute="1" name="" />
     <arc begin="628" end="627" isPushBackRoute="1" name="" />
+    <arc begin="201" end="629" isPushBackRoute="0" name="" />
+    <arc begin="629" end="201" isPushBackRoute="0" name="" />
   </TaxiWaySegments>
 </groundnet>
