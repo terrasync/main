@@ -1,8 +1,65 @@
 <?xml version="1.0"?>
 <groundnet>
   <version>1</version>
+  <fgaversion>Sat, 14 Nov 2020 21:59:20 GMT by FlightgearAirports 7.2.4</fgaversion>
+  <name>PortreeKid</name>
+  <frequencies/>
   <parkingList>
-        <Parking index="0" type="gate" name="Ramp_Start_1" lat="N27 41.258146" lon="E86 43.757071" heading="227.46"  radius="44" airlineCodes="" />
-        <Parking index="1" type="gate" name="Rwy_24_Start" lat="N27 41.279354" lon="E86 43.742131" heading="229.07"  radius="19" airlineCodes="" />
- </parkingList>
+    <Parking index="0" type="gate" name="Ramp Start" lat="N27 41.255" lon="E86 43.763" heading="227.5" radius="14" number="3"/>
+    <Parking index="1" type="gate" name="Rwy_24_Start" lat="N27 41.279" lon="E86 43.742" heading="227.4" radius="14" number="undefined"/>
+    <Parking index="2" type="gate" name="Ramp Start" lat="N27 41.243" lon="E86 43.747" heading="48.8" radius="10" number="2"/>
+    <Parking index="3" type="gate" name="Ramp Start" lat="N27 41.251" lon="E86 43.739" heading="48.4" radius="10" number="1"/>
+  </parkingList>
+  <TaxiNodes>
+    <node index="5" lat="N27 41.259" lon="E86 43.744" isOnRunway="0"/>
+    <node index="6" lat="N27 41.255" lon="E86 43.746" isOnRunway="0"/>
+    <node index="7" lat="N27 41.251" lon="E86 43.746" isOnRunway="0"/>
+    <node index="8" lat="N27 41.247" lon="E86 43.741" isOnRunway="0"/>
+    <node index="9" lat="N27 41.246" lon="E86 43.735" isOnRunway="0"/>
+    <node index="10" lat="N27 41.25" lon="E86 43.734" isOnRunway="0"/>
+    <node index="11" lat="N27 41.248" lon="E86 43.754" isOnRunway="0"/>
+    <node index="12" lat="N27 41.246" lon="E86 43.758" isOnRunway="0"/>
+    <node index="13" lat="N27 41.241" lon="E86 43.755" isOnRunway="0"/>
+    <node index="14" lat="N27 41.238" lon="E86 43.752" isOnRunway="0"/>
+    <node index="15" lat="N27 41.24" lon="E86 43.745" isOnRunway="0"/>
+    <node index="16" lat="N27 41.254" lon="E86 43.749" isOnRunway="0"/>
+    <node index="17" lat="N27 41.247" lon="E86 43.763" isOnRunway="0"/>
+    <node index="18" lat="N27 41.251" lon="E86 43.768" isOnRunway="0"/>
+    <node index="19" lat="N27 41.254" lon="E86 43.769" isOnRunway="0"/>
+    <node index="20" lat="N27 41.257" lon="E86 43.767" isOnRunway="0"/>
+    <node index="21" lat="N27 41.264" lon="E86 43.739" isOnRunway="0"/>
+    <node index="28" lat="N27 41.264" lon="E86 43.724" isOnRunway="1"/>
+  </TaxiNodes>
+  <TaxiWaySegments>
+    <arc begin="5" end="6" isPushBackRoute="0"/>
+    <arc begin="6" end="7" isPushBackRoute="0"/>
+    <arc begin="7" end="8" isPushBackRoute="0"/>
+    <arc begin="8" end="9" isPushBackRoute="0"/>
+    <arc begin="9" end="10" isPushBackRoute="0"/>
+    <arc begin="10" end="3" isPushBackRoute="0"/>
+    <arc begin="3" end="5" isPushBackRoute="0"/>
+    <arc begin="11" end="12" isPushBackRoute="0"/>
+    <arc begin="12" end="13" isPushBackRoute="0"/>
+    <arc begin="13" end="14" isPushBackRoute="0"/>
+    <arc begin="14" end="15" isPushBackRoute="0"/>
+    <arc begin="15" end="2" isPushBackRoute="0"/>
+    <arc begin="2" end="11" isPushBackRoute="0"/>
+    <arc begin="11" end="16" isPushBackRoute="0"/>
+    <arc begin="16" end="11" isPushBackRoute="0"/>
+    <arc begin="11" end="12" isPushBackRoute="0"/>
+    <arc begin="12" end="17" isPushBackRoute="0"/>
+    <arc begin="17" end="18" isPushBackRoute="0"/>
+    <arc begin="18" end="19" isPushBackRoute="0"/>
+    <arc begin="19" end="20" isPushBackRoute="0"/>
+    <arc begin="20" end="0" isPushBackRoute="0"/>
+    <arc begin="0" end="11" isPushBackRoute="0"/>
+    <arc begin="11" end="16" isPushBackRoute="0"/>
+    <arc begin="16" end="11" isPushBackRoute="0"/>
+    <arc begin="16" end="5" isPushBackRoute="0"/>
+    <arc begin="5" end="16" isPushBackRoute="0"/>
+    <arc begin="5" end="21" isPushBackRoute="0"/>
+    <arc begin="21" end="5" isPushBackRoute="0"/>
+    <arc begin="21" end="28" isPushBackRoute="0"/>
+    <arc begin="28" end="21" isPushBackRoute="0"/>
+  </TaxiWaySegments>
 </groundnet>
