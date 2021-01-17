@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <groundnet>
   <version>1</version>
-  <fgaversion>Fri, 15 Jan 2021 13:48:27 GMT by FlightgearAirports 0.0.28</fgaversion>
+  <fgaversion>Fri, 15 Jan 2021 13:47:59 GMT by FlightgearAirports 0.0.28</fgaversion>
   <name>BecOzIcan</name>
   <frequencies>
     <APPROACH>12570</APPROACH>
@@ -45,7 +45,7 @@
     <Parking index="32" type="gate" lat="N26 16.4172" lon="E50 37.4538" heading="214.0" radius="26" name="42" number="undefined" pushBackRoute="98"/>
     <Parking index="33" type="gate" lat="N26 16.4322" lon="E50 37.428" heading="214.0" radius="26" name="43" number="undefined" pushBackRoute="99"/>
     <Parking index="34" type="gate" lat="N26 16.4268" lon="E50 37.3866" heading="214.0" radius="26" number="3" pushBackRoute="101"/>
-    <Parking index="35" type="gate" lat="N26 16.44222" lon="E50 37.3605" heading="214.0" radius="26" number="2" pushBackRoute="96"/>
+    <Parking index="35" type="gate" lat="N26 16.4424" lon="E50 37.3608" heading="214.0" radius="26" number="2"/>
     <Parking index="36" type="gate" lat="N26 16.458" lon="E50 37.3344" heading="214.0" radius="26" number="1" pushBackRoute="95"/>
     <Parking index="37" type="cargo" lat="N26 16.4952" lon="E50 37.1772" heading="214.0" radius="33" name="03" number="undefined" pushBackRoute="81"/>
     <Parking index="38" type="cargo" lat="N26 16.4772" lon="E50 37.2102" heading="214.0" radius="33" name="04" number="undefined" pushBackRoute="80"/>
@@ -103,10 +103,10 @@
     <node index="90" lat="N26 16.4328" lon="E50 37.503" isOnRunway="0" holdPointType="none"/>
     <node index="91" lat="N26 16.4478" lon="E50 37.4772" isOnRunway="0" holdPointType="none"/>
     <node index="92" lat="N26 16.4628" lon="E50 37.4508" isOnRunway="0" holdPointType="none"/>
-    <node index="93" lat="N26 16.4904" lon="E50 37.3974" isOnRunway="0"/>
+    <node index="93" lat="N26 16.490377" lon="E50 37.397373" isOnRunway="0"/>
     <node index="94" lat="N26 16.506" lon="E50 37.371" isOnRunway="0"/>
     <node index="95" lat="N26 16.5228" lon="E50 37.3812" isOnRunway="0" holdPointType="PushBack"/>
-    <node index="96" lat="N26 16.5072" lon="E50 37.41" isOnRunway="0" holdPointType="PushBack"/>
+    <node index="96" lat="N26 16.50708" lon="E50 37.40976" isOnRunway="0" holdPointType="PushBack"/>
     <node index="97" lat="N26 16.4478" lon="E50 37.5132" isOnRunway="0" holdPointType="PushBack"/>
     <node index="98" lat="N26 16.4628" lon="E50 37.488" isOnRunway="0" holdPointType="PushBack"/>
     <node index="99" lat="N26 16.479" lon="E50 37.4622" isOnRunway="0" holdPointType="PushBack"/>
@@ -1447,7 +1447,7 @@
     <arc begin="297" end="93" isPushBackRoute="0"/>
     <arc begin="297" end="101" isPushBackRoute="1"/>
     <arc begin="101" end="297" isPushBackRoute="1"/>
-    <arc begin="93" end="35" isPushBackRoute="1"/>
-    <arc begin="35" end="93" isPushBackRoute="1"/>
+    <arc begin="93" end="35" isPushBackRoute="0"/>
+    <arc begin="35" end="93" isPushBackRoute="0"/>
   </TaxiWaySegments>
 </groundnet>
