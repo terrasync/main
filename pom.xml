@@ -19,7 +19,7 @@
 		<dependency>
 			<groupId>io.github.portree-kid</groupId>
 			<artifactId>groundnet_checker</artifactId>
-			<version>1.12</version>
+			<version>1.13</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -35,7 +35,7 @@
 						<dependency>io.github.portree-kid:groundnet_checker</dependency>
 					</dependenciesToScan>
                     <systemPropertyVariables>
-                        <TRAVIS_BRANCH>${branch}</TRAVIS_BRANCH>
+                        <TRAVIS_BRANCH>${project.version}</TRAVIS_BRANCH>
                     </systemPropertyVariables>
 				</configuration>
 			</plugin>
