@@ -1,7 +1,80 @@
 <?xml version="1.0"?>
 <groundnet>
   <version>1</version>
+  <fgaversion>Wed, 23 Dec 2020 21:07:42 GMT by FlightgearAirports 7.2.4</fgaversion>
+  <name>PortreeKid</name>
+  <frequencies/>
   <parkingList>
-        <Parking index="0" type="gate" name="Vagar_Apron" lat="N62 3.944520" lon="W7 16.687140" heading="150"  radius="44" airlineCodes="" />
- </parkingList>
+    <Parking index="0" type="gate" name="Apron" lat="N62 3.956" lon="W07 16.723" heading="26.0" radius="18" number="2" pushBackRoute="28"/>
+    <Parking index="1" type="gate" name="Apron" lat="N62 3.943" lon="W07 16.67" heading="26.0" radius="18" number="1" pushBackRoute="27"/>
+  </parkingList>
+  <TaxiNodes>
+    <node index="3" lat="N62 3.931" lon="W07 16.716" isOnRunway="0"/>
+    <node index="4" lat="N62 3.916" lon="W07 16.712" isOnRunway="0"/>
+    <node index="5" lat="N62 3.868" lon="W07 16.726" isOnRunway="0"/>
+    <node index="6" lat="N62 3.853" lon="W07 16.732" isOnRunway="0"/>
+    <node index="7" lat="N62 3.85" lon="W07 16.756" isOnRunway="1"/>
+    <node index="10" lat="N62 3.975" lon="W07 17.24" isOnRunway="1"/>
+    <node index="11" lat="N62 3.842" lon="W07 16.723" isOnRunway="1"/>
+    <node index="12" lat="N62 3.791" lon="W07 16.514" isOnRunway="1"/>
+    <node index="13" lat="N62 3.669" lon="W07 16.013" isOnRunway="1"/>
+    <node index="14" lat="N62 3.662" lon="W07 16.007" isOnRunway="1"/>
+    <node index="15" lat="N62 3.663" lon="W07 16.021" isOnRunway="1"/>
+    <node index="16" lat="N62 3.921" lon="W07 16.703" isOnRunway="0"/>
+    <node index="19" lat="N62 3.932" lon="W07 16.681" isOnRunway="0"/>
+    <node index="20" lat="N62 3.927" lon="W07 16.685" isOnRunway="0"/>
+    <node index="21" lat="N62 3.921" lon="W07 16.683" isOnRunway="0"/>
+    <node index="23" lat="N62 3.943" lon="W07 16.737" isOnRunway="0"/>
+    <node index="26" lat="N62 3.937" lon="W07 16.734" isOnRunway="0"/>
+    <node index="27" lat="N62 3.917" lon="W07 16.663" isOnRunway="0" holdPointType="PushBack"/>
+    <node index="28" lat="N62 3.944" lon="W07 16.752" isOnRunway="0" holdPointType="PushBack"/>
+    <node index="29" lat="N62 3.97" lon="W07 17.248" isOnRunway="1"/>
+    <node index="30" lat="N62 3.963" lon="W07 17.226" isOnRunway="1"/>
+  </TaxiNodes>
+  <TaxiWaySegments>
+    <arc begin="23" end="26" isPushBackRoute="0"/>
+    <arc begin="26" end="23" isPushBackRoute="0"/>
+    <arc begin="3" end="4" isPushBackRoute="0"/>
+    <arc begin="4" end="3" isPushBackRoute="0"/>
+    <arc begin="4" end="5" isPushBackRoute="0"/>
+    <arc begin="5" end="4" isPushBackRoute="0"/>
+    <arc begin="5" end="6" isPushBackRoute="0"/>
+    <arc begin="6" end="5" isPushBackRoute="0"/>
+    <arc begin="6" end="11" isPushBackRoute="0"/>
+    <arc begin="11" end="6" isPushBackRoute="0"/>
+    <arc begin="11" end="12" isPushBackRoute="0"/>
+    <arc begin="12" end="11" isPushBackRoute="0"/>
+    <arc begin="12" end="13" isPushBackRoute="0"/>
+    <arc begin="13" end="12" isPushBackRoute="0"/>
+    <arc begin="13" end="14" isPushBackRoute="0"/>
+    <arc begin="14" end="13" isPushBackRoute="0"/>
+    <arc begin="14" end="15" isPushBackRoute="0"/>
+    <arc begin="15" end="14" isPushBackRoute="0"/>
+    <arc begin="4" end="16" isPushBackRoute="0"/>
+    <arc begin="16" end="4" isPushBackRoute="0"/>
+    <arc begin="1" end="19" isPushBackRoute="1"/>
+    <arc begin="19" end="1" isPushBackRoute="1"/>
+    <arc begin="19" end="20" isPushBackRoute="1"/>
+    <arc begin="20" end="19" isPushBackRoute="1"/>
+    <arc begin="20" end="21" isPushBackRoute="1"/>
+    <arc begin="21" end="20" isPushBackRoute="1"/>
+    <arc begin="0" end="23" isPushBackRoute="1"/>
+    <arc begin="23" end="0" isPushBackRoute="1"/>
+    <arc begin="21" end="16" isPushBackRoute="0"/>
+    <arc begin="16" end="21" isPushBackRoute="0"/>
+    <arc begin="26" end="3" isPushBackRoute="0"/>
+    <arc begin="3" end="26" isPushBackRoute="0"/>
+    <arc begin="21" end="27" isPushBackRoute="1"/>
+    <arc begin="27" end="21" isPushBackRoute="1"/>
+    <arc begin="23" end="28" isPushBackRoute="1"/>
+    <arc begin="28" end="23" isPushBackRoute="1"/>
+    <arc begin="6" end="7" isPushBackRoute="0"/>
+    <arc begin="7" end="6" isPushBackRoute="0"/>
+    <arc begin="7" end="10" isPushBackRoute="0"/>
+    <arc begin="10" end="7" isPushBackRoute="0"/>
+    <arc begin="10" end="29" isPushBackRoute="0"/>
+    <arc begin="29" end="10" isPushBackRoute="0"/>
+    <arc begin="29" end="30" isPushBackRoute="0"/>
+    <arc begin="30" end="29" isPushBackRoute="0"/>
+  </TaxiWaySegments>
 </groundnet>
