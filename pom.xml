@@ -46,15 +46,17 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.0.0</version>
                 <executions>
+
                     <execution>
                         <id>execute</id>
-                        <phase>test</phase>
+                        <phase>verify</phase>
                         <goals>
                             <goal>java</goal>
                         </goals>
                     </execution>
                 </executions>
                 <configuration>
+                    <skip>${skipTests}</skip>
                     <arguments>
                         <argument>target/surefire-reports</argument>
                     </arguments>
