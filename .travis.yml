@@ -18,3 +18,4 @@ script: mvn test -B -DTRAVIS_BRANCH=${TRAVIS_BRANCH}
 branches:
   except:
   - master
+after_failure: mvn exec:java -DTRAVIS_BRANCH=${TRAVIS_BRANCH}
