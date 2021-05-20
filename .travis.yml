@@ -13,7 +13,7 @@ cache:
   - $HOME/.m2
   - $HOME/.gradle
 
-script: mvn test -B -DTRAVIS_BRANCH=${TRAVIS_BRANCH} || echo 'Done'
+script: mvn -fn test -B -DTRAVIS_BRANCH=${TRAVIS_BRANCH}
 
 branches:
   except:
@@ -26,4 +26,5 @@ deploy:
   keep_history: true
   on:
     branch: master
+
 after_failure: mvn exec:java -DTRAVIS_BRANCH=${TRAVIS_BRANCH}
