@@ -13,10 +13,11 @@ cache:
   - $HOME/.m2
   - $HOME/.gradle
 
-script: mvn test -B -DTRAVIS_BRANCH=${TRAVIS_BRANCH}
+script: mvn test -B -DTRAVIS_BRANCH=${TRAVIS_BRANCH} || echo 'Done'
 
-after_failure: mvn exec:java -DTRAVIS_BRANCH=${TRAVIS_BRANCH}
-
+branches:
+  except:
+  - master
 deploy:
   provider: pages
   local_dir: target/site
@@ -24,4 +25,5 @@ deploy:
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
-    branch: main
+    branch: master
+after_failure: mvn exec:java -DTRAVIS_BRANCH=${TRAVIS_BRANCH}
