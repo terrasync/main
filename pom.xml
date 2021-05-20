@@ -63,30 +63,28 @@
                     <mainClass>de.keithpaterson.groundnet_checker.ConsoleLogger</mainClass>
                 </configuration>
             </plugin>
-            <!--
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>xml-maven-plugin</artifactId>
-
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.2.0</version>
                 <executions>
                     <execution>
-                        <phase>prepare-package</phase>
+                        <id>copy-resources</id>
+                        <!-- here the phase you need -->
+                        <phase>verify</phase>
                         <goals>
-                            <goal>transform</goal>
+                            <goal>copy-resources</goal>
                         </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/target/site</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>src/main/resources</directory>
+                                    <filtering>false</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
                     </execution>
                 </executions>
-                <configuration>
-                    <transformationSets>
-                        <transformationSet>
-                            <dir>target/surefire-reports</dir>
-                            <includes>*.xml</includes>
-                            <stylesheet>junit.xsl</stylesheet>
-                        </transformationSet>
-                    </transformationSets>
-                </configuration>
-            </plugin>
-             -->
-        </plugins>
+            </plugin>        </plugins>
     </build>
 </project>
