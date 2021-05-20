@@ -17,7 +17,7 @@ jobs:
   include:
     - stage: test_master
       if: branch = master
-      script: mvn -fn test -B -DTRAVIS_BRANCH=${TRAVIS_BRANCH} | mvn exec:java -DTRAVIS_BRANCH=${TRAVIS_BRANCH}
+      script: mvn -fn test -B -DTRAVIS_BRANCH=${TRAVIS_BRANCH} || mvn exec:java -DTRAVIS_BRANCH=${TRAVIS_BRANCH}
     - stage: test_branch
       if: branch != master
       script: mvn test -B -DTRAVIS_BRANCH=${TRAVIS_BRANCH}
