@@ -10,15 +10,19 @@ schedule = "day"/>
 <gen> <!-- General Aviation -->
 <wind tail="7"
 cross="20"/>
-<time start="06:00"
-end = "21:00"
-schedule = "day"/>
-
+<time start="00:00"
+end = "24:00"
+schedule = "ga"/>
 </gen>
 <!-- commercial schedule -->
 <schedule name="day">
 <takeoff>10R,28L</takeoff>
-<takeoff>28L,10R</takeoff>
 <landing>10R,28L</landing>
+</schedule>
+
+<!-- General Aviation -->
+<schedule name="ga">
+<takeoff>10L,28R</takeoff>
+<landing>10L,28R</landing>
 </schedule>
 </rwyuse>
