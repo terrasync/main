@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Groundnet and rwyuse files submitted by Bob Arthur -->
+<!-- Updated 15 AUG 2021 by Ian Tolosa from https://www.faa.gov/airports/planning_capacity/profiles/media/ORD-Airport-Capacity-Profile-2018.pdf -->
 <rwyuse> <!-- Times are in UTC -->
   <com>  <!-- Commercial Traffic-->
     <wind tail="7"
@@ -19,17 +19,16 @@
   
 <!-- commercial schedule -->
 <schedule name="day">
-  <takeoff>09R,27L</takeoff>
-  <takeoff>04R,22L</takeoff>
-  <takeoff>10,28</takeoff>
-  <landing>09L,27R</landing>
-  <landing>04L,22R</landing>
+  <takeoff>22L,09R</takeoff>
+  <takeoff>28,09L</takeoff>
+  <landing>27R,04R</landing>
+  <landing>27L,10</landing>
 </schedule>
 
 <!-- general schedule -->
 <schedule name="general">
-  <takeoff>10,28</takeoff>
-  <landing>04L,22R</landing>
+  <takeoff>28,09L</takeoff>
+  <landing>27R,04R</landing>
 </schedule>
 
 </rwyuse>
