@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <groundnet>
   <version>1</version>
-  <fgaversion>Tue, 17 Aug 2021 10:17:46 GMT by FlightgearAirports 0.0.34</fgaversion>
+  <fgaversion>Fri, 20 Aug 2021 09:39:33 GMT by FlightgearAirports 0.0.34</fgaversion>
   <name>BecOzIcan</name>
   <frequencies>
     <DEPARTURE>12160</DEPARTURE>
@@ -62,7 +62,7 @@
     <Parking index="46" type="gate" lat="N04 42.015" lon="W74 8.6292" heading="37.0" radius="33" name="T1-" number="17" pushBackRoute="145"/>
     <Parking index="47" type="gate" lat="N04 41.919" lon="W74 8.7798" heading="106.0" radius="33" name="T1-" number="81" pushBackRoute="81"/>
     <Parking index="48" type="gate" lat="N04 41.8674" lon="W74 8.8224" heading="217.0" radius="18" name="T1-" number="107" pushBackRoute="80"/>
-    <Parking index="49" type="gate" lat="N04 41.8542" lon="W74 8.805" heading="217.0" radius="18" name="T1-" number="106"/>
+    <Parking index="49" type="gate" lat="N04 41.8542" lon="W74 8.805" heading="217.0" radius="18" name="T1-" number="106" pushBackRoute="496"/>
     <Parking index="50" type="gate" lat="N04 41.841" lon="W74 8.7876" heading="217.0" radius="18" name="T1-" number="105" pushBackRoute="77"/>
     <Parking index="51" type="gate" lat="N04 41.8272" lon="W74 8.7702" heading="217.0" radius="18" name="T1-" number="104" pushBackRoute="73"/>
     <Parking index="52" type="gate" lat="N04 41.814" lon="W74 8.7528" heading="217.0" radius="18" name="T1-" number="103" pushBackRoute="72"/>
@@ -434,7 +434,7 @@
     <node index="416" lat="N04 42.0558" lon="W74 8.7678" isOnRunway="0" holdPointType="none"/>
     <node index="417" lat="N04 42.0522" lon="W74 8.7342" isOnRunway="0" holdPointType="none"/>
     <node index="418" lat="N04 41.892" lon="W74 8.805" isOnRunway="0" holdPointType="none"/>
-    <node index="419" lat="N04 41.8782" lon="W74 8.787" isOnRunway="0" holdPointType="none"/>
+    <node index="419" lat="N04 41.878217" lon="W74 8.786974" isOnRunway="0"/>
     <node index="420" lat="N04 41.865" lon="W74 8.7702" isOnRunway="0" holdPointType="none"/>
     <node index="421" lat="N04 41.8392" lon="W74 8.7348" isOnRunway="0" holdPointType="none"/>
     <node index="422" lat="N04 41.823" lon="W74 8.7138" isOnRunway="0" holdPointType="none"/>
@@ -511,6 +511,7 @@
     <node index="493" lat="N04 41.661" lon="W74 7.986" isOnRunway="0"/>
     <node index="494" lat="N04 41.6604" lon="W74 8.0082" isOnRunway="0" holdPointType="PushBack"/>
     <node index="495" lat="N04 41.6814" lon="W74 7.9926" isOnRunway="0" holdPointType="PushBack"/>
+    <node index="496" lat="N04 41.87232" lon="W74 8.7792" isOnRunway="0" holdPointType="PushBack"/>
   </TaxiNodes>
   <TaxiWaySegments>
     <arc begin="437" end="64" isPushBackRoute="1" name="0"/>
@@ -1051,8 +1052,8 @@
     <arc begin="76" end="51" isPushBackRoute="1" name="0"/>
     <arc begin="50" end="420" isPushBackRoute="1" name="0"/>
     <arc begin="420" end="50" isPushBackRoute="1" name="0"/>
-    <arc begin="49" end="419" isPushBackRoute="0" name="0"/>
-    <arc begin="419" end="49" isPushBackRoute="0" name="0"/>
+    <arc begin="49" end="419" isPushBackRoute="1" name="0"/>
+    <arc begin="419" end="49" isPushBackRoute="1" name="0"/>
     <arc begin="48" end="418" isPushBackRoute="1" name="0"/>
     <arc begin="418" end="48" isPushBackRoute="1" name="0"/>
     <arc begin="47" end="83" isPushBackRoute="1" name="0"/>
@@ -1515,5 +1516,7 @@
     <arc begin="493" end="304" isPushBackRoute="0"/>
     <arc begin="297" end="495" isPushBackRoute="1"/>
     <arc begin="495" end="297" isPushBackRoute="1"/>
+    <arc begin="419" end="496" isPushBackRoute="1"/>
+    <arc begin="496" end="419" isPushBackRoute="1"/>
   </TaxiWaySegments>
 </groundnet>
