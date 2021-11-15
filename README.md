@@ -1,2 +1,3 @@
 # Terrasync Airports
-This project is fuelled by http://groundweb.azurewebsites.net/. It is tested via https://travis-ci.org/terrasync/main.
+This project is fuelled by http://groundweb.azurewebsites.net/. 
+A semi regular test result can be found at https://terrasync.github.io/main/.
