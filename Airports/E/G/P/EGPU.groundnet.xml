@@ -1,101 +1,147 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <groundnet>
    <version>1</version>
-  <frequencies>
-    <TOWER>12270</TOWER>
-  </frequencies>
-  <parkingList>
-    <Parking index="0"
-             type="gate"
-             name="Passenger Aircraft"
-             number=""
-             lat="N56 29.927"
-             lon="W06 52.755"
-             heading="82.3481"
-             radius="18"
-             airlineCodes="" />
-
-    <Parking index="1"
-             type="gate"
-             name="GA Ramp"
-             number=""
-             lat="N56 29.948"
-             lon="W06 52.765"
-             heading="76.7309"
-             radius="14"
-             airlineCodes="" />
-
-    <Parking index="2"
-             type="gate"
-             name="GA Ramp"
-             number=""
-             lat="N56 29.935"
-             lon="W06 52.705"
-             heading="250.43"
-             radius="14"
-             airlineCodes="" />
-
-    <Parking index="3"
-             type="gate"
-             name="GA Ramp"
-             number=""
-             lat="N56 29.950"
-             lon="W06 52.713"
-             heading="250.43"
-             radius="14"
-             airlineCodes="" />
-
-  </parkingList>
-  <TaxiNodes>
-    <node index="4" lat="N56 29.928" lon="W06 52.731" isOnRunway="0" holdPointType="none" />
-    <node index="5" lat="N56 29.950" lon="W06 52.748" isOnRunway="0" holdPointType="none" />
-    <node index="6" lat="N56 29.940" lon="W06 52.683" isOnRunway="0" holdPointType="none" />
-    <node index="7" lat="N56 29.954" lon="W06 52.689" isOnRunway="0" holdPointType="none" />
-    <node index="8" lat="N56 29.955" lon="W06 52.744" isOnRunway="0" holdPointType="none" />
-    <node index="9" lat="N56 29.959" lon="W06 52.736" isOnRunway="0" holdPointType="none" />
-    <node index="10" lat="N56 29.920" lon="W06 52.727" isOnRunway="0" holdPointType="none" />
-    <node index="11" lat="N56 29.917" lon="W06 52.712" isOnRunway="0" holdPointType="none" />
-    <node index="12" lat="N56 29.921" lon="W06 52.676" isOnRunway="0" holdPointType="none" />
-    <node index="13" lat="N56 30.091" lon="W06 52.746" isOnRunway="0" holdPointType="none" />
-    <node index="14" lat="N56 29.965" lon="W06 52.694" isOnRunway="0" holdPointType="none" />
-    <node index="15" lat="N56 30.111" lon="W06 52.754" isOnRunway="0" holdPointType="none" />
-    <node index="16" lat="N56 30.129" lon="W06 52.747" isOnRunway="1" holdPointType="none" />
-    <node index="17" lat="N56 30.409" lon="W06 52.646" isOnRunway="1" holdPointType="none" />
-    <node index="18" lat="N56 30.221" lon="W06 51.625" isOnRunway="1" holdPointType="none" />
-    <node index="19" lat="N56 29.684" lon="W06 52.670" isOnRunway="1" holdPointType="none" />
-  </TaxiNodes>
-  <TaxiWaySegments>
-    <arc begin="0" end="4" isPushBackRoute="0" name="Passenger Aircraft" />
-    <arc begin="4" end="0" isPushBackRoute="0" name="Passenger Aircraft" />
-    <arc begin="1" end="5" isPushBackRoute="0" name="GA Ramp" />
-    <arc begin="5" end="1" isPushBackRoute="0" name="GA Ramp" />
-    <arc begin="2" end="6" isPushBackRoute="1" name="GA Ramp" />
-    <arc begin="6" end="2" isPushBackRoute="1" name="GA Ramp" />
-    <arc begin="3" end="7" isPushBackRoute="1" name="GA Ramp" />
-    <arc begin="7" end="3" isPushBackRoute="1" name="GA Ramp" />
-    <arc begin="8" end="9" isPushBackRoute="0" name="" />
-    <arc begin="9" end="8" isPushBackRoute="0" name="" />
-    <arc begin="8" end="5" isPushBackRoute="0" name="" />
-    <arc begin="5" end="8" isPushBackRoute="0" name="" />
-    <arc begin="9" end="14" isPushBackRoute="0" name="" />
-    <arc begin="14" end="9" isPushBackRoute="0" name="" />
-    <arc begin="10" end="11" isPushBackRoute="0" name="A" />
-    <arc begin="11" end="10" isPushBackRoute="0" name="A" />
-    <arc begin="10" end="4" isPushBackRoute="0" name="A" />
-    <arc begin="4" end="10" isPushBackRoute="0" name="A" />
-    <arc begin="11" end="12" isPushBackRoute="0" name="A" />
-    <arc begin="12" end="11" isPushBackRoute="0" name="A" />
-    <arc begin="12" end="6" isPushBackRoute="0" name="A" />
-    <arc begin="6" end="12" isPushBackRoute="0" name="A" />
-    <arc begin="13" end="14" isPushBackRoute="0" name="A" />
-    <arc begin="14" end="13" isPushBackRoute="0" name="A" />
-    <arc begin="13" end="15" isPushBackRoute="0" name="C" />
-    <arc begin="15" end="13" isPushBackRoute="0" name="C" />
-    <arc begin="14" end="7" isPushBackRoute="0" name="A" />
-    <arc begin="7" end="14" isPushBackRoute="0" name="A" />
-    <arc begin="15" end="16" isPushBackRoute="0" name="C" />
-    <arc begin="16" end="15" isPushBackRoute="0" name="C" />
-    <arc begin="6" end="7" isPushBackRoute="0" name="A" />
-    <arc begin="7" end="6" isPushBackRoute="0" name="A" />
-  </TaxiWaySegments>
+   <frequencies>
+      <TOWER>12270</TOWER>
+   </frequencies>
+   <parkingList>
+      <Parking index="0"
+               type="gate"
+               name="Passenger Aircraft"
+               number=""
+               lat="N56 29.927"
+               lon="W06 52.755"
+               heading="82.3481"
+               radius="18"
+               airlineCodes=""/>
+      <Parking index="1"
+               type="gate"
+               name="GA Ramp"
+               number=""
+               lat="N56 29.948"
+               lon="W06 52.765"
+               heading="76.7309"
+               radius="14"
+               airlineCodes=""/>
+      <Parking index="2"
+               type="gate"
+               name="GA Ramp"
+               number=""
+               lat="N56 29.935"
+               lon="W06 52.705"
+               heading="250.43"
+               radius="14"
+               airlineCodes=""/>
+      <Parking index="3"
+               type="gate"
+               name="GA Ramp"
+               number=""
+               lat="N56 29.950"
+               lon="W06 52.713"
+               heading="250.43"
+               radius="14"
+               airlineCodes=""/>
+   </parkingList>
+   <TaxiNodes>
+      <node index="4"
+            lat="N56 29.928"
+            lon="W06 52.731"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="5"
+            lat="N56 29.950"
+            lon="W06 52.748"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="6"
+            lat="N56 29.940"
+            lon="W06 52.683"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="7"
+            lat="N56 29.954"
+            lon="W06 52.689"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="8"
+            lat="N56 29.955"
+            lon="W06 52.744"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="9"
+            lat="N56 29.959"
+            lon="W06 52.736"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="10"
+            lat="N56 29.920"
+            lon="W06 52.727"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="11"
+            lat="N56 29.917"
+            lon="W06 52.712"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="12"
+            lat="N56 29.921"
+            lon="W06 52.676"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="13"
+            lat="N56 30.091"
+            lon="W06 52.746"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="14"
+            lat="N56 29.965"
+            lon="W06 52.694"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="15"
+            lat="N56 30.111"
+            lon="W06 52.754"
+            isOnRunway="0"
+            holdPointType="none"/>
+      <node index="16"
+            lat="N56 30.129"
+            lon="W06 52.747"
+            isOnRunway="1"
+            holdPointType="none"/>
+   </TaxiNodes>
+   <TaxiWaySegments>
+      <arc begin="0" end="4" isPushBackRoute="0" name="Passenger Aircraft"/>
+      <arc begin="4" end="0" isPushBackRoute="0" name="Passenger Aircraft"/>
+      <arc begin="1" end="5" isPushBackRoute="0" name="GA Ramp"/>
+      <arc begin="5" end="1" isPushBackRoute="0" name="GA Ramp"/>
+      <arc begin="2" end="6" isPushBackRoute="1" name="GA Ramp"/>
+      <arc begin="6" end="2" isPushBackRoute="1" name="GA Ramp"/>
+      <arc begin="3" end="7" isPushBackRoute="1" name="GA Ramp"/>
+      <arc begin="7" end="3" isPushBackRoute="1" name="GA Ramp"/>
+      <arc begin="8" end="9" isPushBackRoute="0" name=""/>
+      <arc begin="9" end="8" isPushBackRoute="0" name=""/>
+      <arc begin="8" end="5" isPushBackRoute="0" name=""/>
+      <arc begin="5" end="8" isPushBackRoute="0" name=""/>
+      <arc begin="9" end="14" isPushBackRoute="0" name=""/>
+      <arc begin="14" end="9" isPushBackRoute="0" name=""/>
+      <arc begin="10" end="11" isPushBackRoute="0" name="A"/>
+      <arc begin="11" end="10" isPushBackRoute="0" name="A"/>
+      <arc begin="10" end="4" isPushBackRoute="0" name="A"/>
+      <arc begin="4" end="10" isPushBackRoute="0" name="A"/>
+      <arc begin="11" end="12" isPushBackRoute="0" name="A"/>
+      <arc begin="12" end="11" isPushBackRoute="0" name="A"/>
+      <arc begin="12" end="6" isPushBackRoute="0" name="A"/>
+      <arc begin="6" end="12" isPushBackRoute="0" name="A"/>
+      <arc begin="13" end="14" isPushBackRoute="0" name="A"/>
+      <arc begin="14" end="13" isPushBackRoute="0" name="A"/>
+      <arc begin="13" end="15" isPushBackRoute="0" name="C"/>
+      <arc begin="15" end="13" isPushBackRoute="0" name="C"/>
+      <arc begin="14" end="7" isPushBackRoute="0" name="A"/>
+      <arc begin="7" end="14" isPushBackRoute="0" name="A"/>
+      <arc begin="15" end="16" isPushBackRoute="0" name="C"/>
+      <arc begin="16" end="15" isPushBackRoute="0" name="C"/>
+      <arc begin="6" end="7" isPushBackRoute="0" name="A"/>
+      <arc begin="7" end="6" isPushBackRoute="0" name="A"/>
+   </TaxiWaySegments>
 </groundnet>
+
