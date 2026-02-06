@@ -1,201 +1,342 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <groundnet>
-  <version>1</version>
-  <fgaversion>Tue, 29 Jun 2021 22:16:00 GMT by FlightgearAirports 0.0.32</fgaversion>
-  <name>Mikko Hyvärinen</name>
-  <frequencies>
-    <APPROACH>12670</APPROACH>
-    <AWOS>13610</AWOS>
-    <TOWER>12100</TOWER>
-  </frequencies>
-  <parkingList>
-    <Parking index="0" type="gate" lat="N70 40.84614" lon="E23 40.69152" heading="143.5" radius="14" name="H" number="8"/>
-    <Parking index="1" type="gate" lat="N70 40.77246" lon="E23 40.39446" heading="55.9" radius="14" name="H" number="6"/>
-    <Parking index="2" type="gate" lat="N70 40.76148" lon="E23 40.3449" heading="55.6" radius="14" name="H" number="5"/>
-  </parkingList>
-  <TaxiNodes>
-    <node index="3" lat="N70 40.891535" lon="E23 40.623153" isOnRunway="1"/>
-    <node index="4" lat="N70 40.909583" lon="E23 40.647454" isOnRunway="0"/>
-    <node index="5" lat="N70 40.911925" lon="E23 40.661777" isOnRunway="0"/>
-    <node index="6" lat="N70 40.910168" lon="E23 40.67948" isOnRunway="1"/>
-    <node index="7" lat="N70 40.902928" lon="E23 40.682055" isOnRunway="1"/>
-    <node index="8" lat="N70 40.87897" lon="E23 40.624924" isOnRunway="0" holdPointType="normal"/>
-    <node index="9" lat="N70 40.863956" lon="E23 40.656627" isOnRunway="0"/>
-    <node index="10" lat="N70 40.852509" lon="E23 40.644397" isOnRunway="0"/>
-    <node index="11" lat="N70 40.842926" lon="E23 40.600784" isOnRunway="0"/>
-    <node index="12" lat="N70 40.835046" lon="E23 40.565379" isOnRunway="0"/>
-    <node index="13" lat="N70 40.821895" lon="E23 40.505995" isOnRunway="0"/>
-    <node index="14" lat="N70 40.808478" lon="E23 40.445162" isOnRunway="0"/>
-    <node index="15" lat="N70 40.794475" lon="E23 40.385456" isOnRunway="0"/>
-    <node index="16" lat="N70 40.791387" lon="E23 40.370328" isOnRunway="0"/>
-    <node index="17" lat="N70 40.780951" lon="E23 40.323014" isOnRunway="0"/>
-    <node index="18" lat="N70 40.775201" lon="E23 40.313036" isOnRunway="0"/>
-    <node index="19" lat="N70 40.762422" lon="E23 40.333958" isOnRunway="0"/>
-    <node index="20" lat="N70 40.784306" lon="E23 40.369041" isOnRunway="0"/>
-    <node index="21" lat="N70 40.773204" lon="E23 40.385295" isOnRunway="0"/>
-    <node index="22" lat="N70 40.83888" lon="E23 40.707482" isOnRunway="0"/>
-    <node index="23" lat="N70 40.828018" lon="E23 40.703137" isOnRunway="0"/>
-    <node index="24" lat="N70 40.825356" lon="E23 40.680928" isOnRunway="0"/>
-    <node index="25" lat="N70 40.829296" lon="E23 40.660812" isOnRunway="0"/>
-    <node index="26" lat="N70 40.841116" lon="E23 40.636833" isOnRunway="0"/>
-    <node index="27" lat="N70 40.852563" lon="E23 40.676905" isOnRunway="0"/>
-    <node index="28" lat="N70 40.781058" lon="E23 40.300806" isOnRunway="0"/>
-    <node index="29" lat="N70 40.796498" lon="E23 40.268297" isOnRunway="0" holdPointType="normal"/>
-    <node index="30" lat="N70 40.799427" lon="E23 40.223236" isOnRunway="1"/>
-    <node index="31" lat="N70 40.795593" lon="E23 40.1859" isOnRunway="1"/>
-    <node index="32" lat="N70 40.658057" lon="E23 39.572747" isOnRunway="1"/>
-    <node index="33" lat="N70 40.655927" lon="E23 39.527364" isOnRunway="1"/>
-    <node index="34" lat="N70 40.650069" lon="E23 39.49743" isOnRunway="1"/>
-    <node index="35" lat="N70 40.64517" lon="E23 39.49904" isOnRunway="1"/>
-    <node index="36" lat="N70 40.64336" lon="E23 39.514489" isOnRunway="1"/>
-    <node index="37" lat="N70 40.648658" lon="E23 39.540721" isOnRunway="1"/>
-    <node index="38" lat="N70 40.65684" lon="E23 39.56568" isOnRunway="1"/>
-    <node index="39" lat="N70 40.816731" lon="E23 40.279884" isOnRunway="1"/>
-    <node index="40" lat="N70 40.884241" lon="E23 40.582759" isOnRunway="1"/>
-    <node index="41" lat="N70 40.823865" lon="E23 40.311749" isOnRunway="1"/>
-    <node index="42" lat="N70 40.825356" lon="E23 40.319474" isOnRunway="1"/>
-    <node index="43" lat="N70 40.820458" lon="E23 40.376766" isOnRunway="0"/>
-    <node index="44" lat="N70 40.811566" lon="E23 40.399457" isOnRunway="0"/>
-    <node index="45" lat="N70 40.841063" lon="E23 40.38964" isOnRunway="1"/>
-    <node index="46" lat="N70 40.868375" lon="E23 40.512271" isOnRunway="1"/>
-    <node index="47" lat="N70 40.848996" lon="E23 40.50004" isOnRunway="0"/>
-    <node index="48" lat="N70 40.836058" lon="E23 40.523697" isOnRunway="0"/>
-    <node index="49" lat="N70 40.85219" lon="E23 40.437598" isOnRunway="1"/>
-  </TaxiNodes>
-  <TaxiWaySegments>
-    <arc begin="3" end="3" isPushBackRoute="0"/>
-    <arc begin="3" end="3" isPushBackRoute="0"/>
-    <arc begin="3" end="4" isPushBackRoute="0"/>
-    <arc begin="4" end="3" isPushBackRoute="0"/>
-    <arc begin="4" end="5" isPushBackRoute="0"/>
-    <arc begin="5" end="4" isPushBackRoute="0"/>
-    <arc begin="5" end="6" isPushBackRoute="0"/>
-    <arc begin="6" end="5" isPushBackRoute="0"/>
-    <arc begin="6" end="7" isPushBackRoute="0"/>
-    <arc begin="7" end="6" isPushBackRoute="0"/>
-    <arc begin="7" end="3" isPushBackRoute="0"/>
-    <arc begin="3" end="7" isPushBackRoute="0"/>
-    <arc begin="3" end="8" isPushBackRoute="0"/>
-    <arc begin="8" end="3" isPushBackRoute="0"/>
-    <arc begin="8" end="9" isPushBackRoute="0"/>
-    <arc begin="9" end="8" isPushBackRoute="0"/>
-    <arc begin="9" end="0" isPushBackRoute="0"/>
-    <arc begin="0" end="9" isPushBackRoute="0"/>
-    <arc begin="9" end="10" isPushBackRoute="0"/>
-    <arc begin="10" end="9" isPushBackRoute="0"/>
-    <arc begin="10" end="11" isPushBackRoute="0"/>
-    <arc begin="11" end="10" isPushBackRoute="0"/>
-    <arc begin="11" end="12" isPushBackRoute="0"/>
-    <arc begin="12" end="11" isPushBackRoute="0"/>
-    <arc begin="12" end="13" isPushBackRoute="0"/>
-    <arc begin="13" end="12" isPushBackRoute="0"/>
-    <arc begin="13" end="14" isPushBackRoute="0"/>
-    <arc begin="14" end="13" isPushBackRoute="0"/>
-    <arc begin="14" end="15" isPushBackRoute="0"/>
-    <arc begin="15" end="14" isPushBackRoute="0"/>
-    <arc begin="15" end="16" isPushBackRoute="0"/>
-    <arc begin="16" end="15" isPushBackRoute="0"/>
-    <arc begin="16" end="17" isPushBackRoute="0"/>
-    <arc begin="17" end="16" isPushBackRoute="0"/>
-    <arc begin="17" end="18" isPushBackRoute="0"/>
-    <arc begin="18" end="17" isPushBackRoute="0"/>
-    <arc begin="18" end="19" isPushBackRoute="0"/>
-    <arc begin="19" end="18" isPushBackRoute="0"/>
-    <arc begin="19" end="2" isPushBackRoute="0"/>
-    <arc begin="2" end="19" isPushBackRoute="0"/>
-    <arc begin="16" end="20" isPushBackRoute="0"/>
-    <arc begin="20" end="16" isPushBackRoute="0"/>
-    <arc begin="20" end="21" isPushBackRoute="0"/>
-    <arc begin="21" end="20" isPushBackRoute="0"/>
-    <arc begin="21" end="1" isPushBackRoute="0"/>
-    <arc begin="1" end="21" isPushBackRoute="0"/>
-    <arc begin="0" end="22" isPushBackRoute="0"/>
-    <arc begin="22" end="0" isPushBackRoute="0"/>
-    <arc begin="22" end="23" isPushBackRoute="0"/>
-    <arc begin="23" end="22" isPushBackRoute="0"/>
-    <arc begin="23" end="24" isPushBackRoute="0"/>
-    <arc begin="24" end="23" isPushBackRoute="0"/>
-    <arc begin="24" end="25" isPushBackRoute="0"/>
-    <arc begin="25" end="24" isPushBackRoute="0"/>
-    <arc begin="25" end="26" isPushBackRoute="0"/>
-    <arc begin="26" end="25" isPushBackRoute="0"/>
-    <arc begin="26" end="10" isPushBackRoute="0"/>
-    <arc begin="10" end="26" isPushBackRoute="0"/>
-    <arc begin="10" end="27" isPushBackRoute="0"/>
-    <arc begin="27" end="10" isPushBackRoute="0"/>
-    <arc begin="27" end="0" isPushBackRoute="0"/>
-    <arc begin="0" end="27" isPushBackRoute="0"/>
-    <arc begin="26" end="11" isPushBackRoute="0"/>
-    <arc begin="11" end="26" isPushBackRoute="0"/>
-    <arc begin="1" end="1" isPushBackRoute="0"/>
-    <arc begin="1" end="1" isPushBackRoute="0"/>
-    <arc begin="1" end="1" isPushBackRoute="0"/>
-    <arc begin="1" end="1" isPushBackRoute="0"/>
-    <arc begin="1" end="1" isPushBackRoute="0"/>
-    <arc begin="1" end="1" isPushBackRoute="0"/>
-    <arc begin="1" end="17" isPushBackRoute="0"/>
-    <arc begin="17" end="1" isPushBackRoute="0"/>
-    <arc begin="1" end="20" isPushBackRoute="0"/>
-    <arc begin="20" end="1" isPushBackRoute="0"/>
-    <arc begin="2" end="2" isPushBackRoute="0"/>
-    <arc begin="2" end="2" isPushBackRoute="0"/>
-    <arc begin="2" end="2" isPushBackRoute="0"/>
-    <arc begin="2" end="2" isPushBackRoute="0"/>
-    <arc begin="2" end="18" isPushBackRoute="0"/>
-    <arc begin="18" end="2" isPushBackRoute="0"/>
-    <arc begin="18" end="28" isPushBackRoute="0"/>
-    <arc begin="28" end="18" isPushBackRoute="0"/>
-    <arc begin="28" end="29" isPushBackRoute="0"/>
-    <arc begin="29" end="28" isPushBackRoute="0"/>
-    <arc begin="29" end="30" isPushBackRoute="0"/>
-    <arc begin="30" end="29" isPushBackRoute="0"/>
-    <arc begin="30" end="31" isPushBackRoute="0"/>
-    <arc begin="31" end="30" isPushBackRoute="0"/>
-    <arc begin="31" end="32" isPushBackRoute="0"/>
-    <arc begin="32" end="31" isPushBackRoute="0"/>
-    <arc begin="32" end="33" isPushBackRoute="0"/>
-    <arc begin="33" end="32" isPushBackRoute="0"/>
-    <arc begin="33" end="34" isPushBackRoute="0"/>
-    <arc begin="34" end="33" isPushBackRoute="0"/>
-    <arc begin="34" end="35" isPushBackRoute="0"/>
-    <arc begin="35" end="34" isPushBackRoute="0"/>
-    <arc begin="35" end="36" isPushBackRoute="0"/>
-    <arc begin="36" end="35" isPushBackRoute="0"/>
-    <arc begin="36" end="37" isPushBackRoute="0"/>
-    <arc begin="37" end="36" isPushBackRoute="0"/>
-    <arc begin="37" end="38" isPushBackRoute="0"/>
-    <arc begin="38" end="37" isPushBackRoute="0"/>
-    <arc begin="38" end="38" isPushBackRoute="0"/>
-    <arc begin="38" end="38" isPushBackRoute="0"/>
-    <arc begin="38" end="38" isPushBackRoute="0"/>
-    <arc begin="38" end="38" isPushBackRoute="0"/>
-    <arc begin="39" end="29" isPushBackRoute="0"/>
-    <arc begin="29" end="39" isPushBackRoute="0"/>
-    <arc begin="17" end="28" isPushBackRoute="0"/>
-    <arc begin="28" end="17" isPushBackRoute="0"/>
-    <arc begin="40" end="8" isPushBackRoute="0"/>
-    <arc begin="8" end="40" isPushBackRoute="0"/>
-    <arc begin="41" end="42" isPushBackRoute="0"/>
-    <arc begin="42" end="41" isPushBackRoute="0"/>
-    <arc begin="42" end="43" isPushBackRoute="0"/>
-    <arc begin="43" end="42" isPushBackRoute="0"/>
-    <arc begin="43" end="44" isPushBackRoute="0"/>
-    <arc begin="44" end="43" isPushBackRoute="0"/>
-    <arc begin="44" end="15" isPushBackRoute="0"/>
-    <arc begin="15" end="44" isPushBackRoute="0"/>
-    <arc begin="44" end="14" isPushBackRoute="0"/>
-    <arc begin="14" end="44" isPushBackRoute="0"/>
-    <arc begin="45" end="43" isPushBackRoute="0"/>
-    <arc begin="43" end="45" isPushBackRoute="0"/>
-    <arc begin="46" end="47" isPushBackRoute="0"/>
-    <arc begin="47" end="46" isPushBackRoute="0"/>
-    <arc begin="47" end="48" isPushBackRoute="0"/>
-    <arc begin="48" end="47" isPushBackRoute="0"/>
-    <arc begin="48" end="12" isPushBackRoute="0"/>
-    <arc begin="12" end="48" isPushBackRoute="0"/>
-    <arc begin="13" end="48" isPushBackRoute="0"/>
-    <arc begin="48" end="13" isPushBackRoute="0"/>
-    <arc begin="49" end="47" isPushBackRoute="0"/>
-    <arc begin="47" end="49" isPushBackRoute="0"/>
-  </TaxiWaySegments>
+   <version>1</version>
+   <fgaversion>Tue, 29 Jun 2021 22:16:00 GMT by FlightgearAirports 0.0.32</fgaversion>
+   <name>Mikko Hyv├ñrinen</name>
+   <frequencies>
+      <APPROACH>12670</APPROACH>
+      <AWOS>13610</AWOS>
+      <TOWER>12100</TOWER>
+   </frequencies>
+   <parkingList>
+      <Parking index="0"
+               type="gate"
+               lat="N70 40.84614"
+               lon="E23 40.69152"
+               heading="143.5"
+               radius="14"
+               name="H"
+               number="8"/>
+      <Parking index="1"
+               type="gate"
+               lat="N70 40.77246"
+               lon="E23 40.39446"
+               heading="55.9"
+               radius="14"
+               name="H"
+               number="6"/>
+      <Parking index="2"
+               type="gate"
+               lat="N70 40.76148"
+               lon="E23 40.3449"
+               heading="55.6"
+               radius="14"
+               name="H"
+               number="5"/>
+   </parkingList>
+   <TaxiNodes>
+      <node index="3"
+            lat="N70 40.891535"
+            lon="E23 40.623153"
+            isOnRunway="1"/>
+      <node index="4"
+            lat="N70 40.909583"
+            lon="E23 40.647454"
+            isOnRunway="0"/>
+      <node index="5"
+            lat="N70 40.911925"
+            lon="E23 40.661777"
+            isOnRunway="0"/>
+      <node index="6" lat="N70 40.910168" lon="E23 40.67948" isOnRunway="1"/>
+      <node index="7"
+            lat="N70 40.902928"
+            lon="E23 40.682055"
+            isOnRunway="1"/>
+      <node index="8"
+            lat="N70 40.87897"
+            lon="E23 40.624924"
+            isOnRunway="0"
+            holdPointType="normal"/>
+      <node index="9"
+            lat="N70 40.863956"
+            lon="E23 40.656627"
+            isOnRunway="0"/>
+      <node index="10"
+            lat="N70 40.852509"
+            lon="E23 40.644397"
+            isOnRunway="0"/>
+      <node index="11"
+            lat="N70 40.842926"
+            lon="E23 40.600784"
+            isOnRunway="0"/>
+      <node index="12"
+            lat="N70 40.835046"
+            lon="E23 40.565379"
+            isOnRunway="0"/>
+      <node index="13"
+            lat="N70 40.821895"
+            lon="E23 40.505995"
+            isOnRunway="0"/>
+      <node index="14"
+            lat="N70 40.808478"
+            lon="E23 40.445162"
+            isOnRunway="0"/>
+      <node index="15"
+            lat="N70 40.794475"
+            lon="E23 40.385456"
+            isOnRunway="0"/>
+      <node index="16"
+            lat="N70 40.791387"
+            lon="E23 40.370328"
+            isOnRunway="0"/>
+      <node index="17"
+            lat="N70 40.780951"
+            lon="E23 40.323014"
+            isOnRunway="0"/>
+      <node index="18"
+            lat="N70 40.775201"
+            lon="E23 40.313036"
+            isOnRunway="0"/>
+      <node index="19"
+            lat="N70 40.762422"
+            lon="E23 40.333958"
+            isOnRunway="0"/>
+      <node index="20"
+            lat="N70 40.784306"
+            lon="E23 40.369041"
+            isOnRunway="0"/>
+      <node index="21"
+            lat="N70 40.773204"
+            lon="E23 40.385295"
+            isOnRunway="0"/>
+      <node index="22"
+            lat="N70 40.83888"
+            lon="E23 40.707482"
+            isOnRunway="0"/>
+      <node index="23"
+            lat="N70 40.828018"
+            lon="E23 40.703137"
+            isOnRunway="0"/>
+      <node index="24"
+            lat="N70 40.825356"
+            lon="E23 40.680928"
+            isOnRunway="0"/>
+      <node index="25"
+            lat="N70 40.829296"
+            lon="E23 40.660812"
+            isOnRunway="0"/>
+      <node index="26"
+            lat="N70 40.841116"
+            lon="E23 40.636833"
+            isOnRunway="0"/>
+      <node index="27"
+            lat="N70 40.852563"
+            lon="E23 40.676905"
+            isOnRunway="0"/>
+      <node index="28"
+            lat="N70 40.781058"
+            lon="E23 40.300806"
+            isOnRunway="0"/>
+      <node index="29"
+            lat="N70 40.796498"
+            lon="E23 40.268297"
+            isOnRunway="0"
+            holdPointType="normal"/>
+      <node index="30"
+            lat="N70 40.799427"
+            lon="E23 40.223236"
+            isOnRunway="1"/>
+      <node index="31" lat="N70 40.795593" lon="E23 40.1859" isOnRunway="1"/>
+      <node index="32"
+            lat="N70 40.658057"
+            lon="E23 39.572747"
+            isOnRunway="1"/>
+      <node index="33"
+            lat="N70 40.655927"
+            lon="E23 39.527364"
+            isOnRunway="1"/>
+      <node index="34"
+            lat="N70 40.650069"
+            lon="E23 39.49743"
+            isOnRunway="1"/>
+      <node index="35" lat="N70 40.64517" lon="E23 39.49904" isOnRunway="1"/>
+      <node index="36"
+            lat="N70 40.64336"
+            lon="E23 39.514489"
+            isOnRunway="1"/>
+      <node index="37"
+            lat="N70 40.648658"
+            lon="E23 39.540721"
+            isOnRunway="1"/>
+      <node index="38" lat="N70 40.65684" lon="E23 39.56568" isOnRunway="1"/>
+      <node index="39"
+            lat="N70 40.816731"
+            lon="E23 40.279884"
+            isOnRunway="1"/>
+      <node index="40"
+            lat="N70 40.884241"
+            lon="E23 40.582759"
+            isOnRunway="1"/>
+      <node index="41"
+            lat="N70 40.823865"
+            lon="E23 40.311749"
+            isOnRunway="1"/>
+      <node index="42"
+            lat="N70 40.825356"
+            lon="E23 40.319474"
+            isOnRunway="1"/>
+      <node index="43"
+            lat="N70 40.820458"
+            lon="E23 40.376766"
+            isOnRunway="0"/>
+      <node index="44"
+            lat="N70 40.811566"
+            lon="E23 40.399457"
+            isOnRunway="0"/>
+      <node index="45"
+            lat="N70 40.841063"
+            lon="E23 40.38964"
+            isOnRunway="1"/>
+      <node index="46"
+            lat="N70 40.868375"
+            lon="E23 40.512271"
+            isOnRunway="1"/>
+      <node index="47"
+            lat="N70 40.848996"
+            lon="E23 40.50004"
+            isOnRunway="0"/>
+      <node index="48"
+            lat="N70 40.836058"
+            lon="E23 40.523697"
+            isOnRunway="0"/>
+      <node index="49"
+            lat="N70 40.85219"
+            lon="E23 40.437598"
+            isOnRunway="1"/>
+   </TaxiNodes>
+   <TaxiWaySegments>
+      <arc begin="3" end="3" isPushBackRoute="0"/>
+      <arc begin="3" end="4" isPushBackRoute="0"/>
+      <arc begin="4" end="3" isPushBackRoute="0"/>
+      <arc begin="4" end="5" isPushBackRoute="0"/>
+      <arc begin="5" end="4" isPushBackRoute="0"/>
+      <arc begin="5" end="6" isPushBackRoute="0"/>
+      <arc begin="6" end="5" isPushBackRoute="0"/>
+      <arc begin="6" end="7" isPushBackRoute="0"/>
+      <arc begin="7" end="6" isPushBackRoute="0"/>
+      <arc begin="7" end="3" isPushBackRoute="0"/>
+      <arc begin="3" end="7" isPushBackRoute="0"/>
+      <arc begin="3" end="8" isPushBackRoute="0"/>
+      <arc begin="8" end="3" isPushBackRoute="0"/>
+      <arc begin="8" end="9" isPushBackRoute="0"/>
+      <arc begin="9" end="8" isPushBackRoute="0"/>
+      <arc begin="9" end="0" isPushBackRoute="0"/>
+      <arc begin="0" end="9" isPushBackRoute="0"/>
+      <arc begin="9" end="10" isPushBackRoute="0"/>
+      <arc begin="10" end="9" isPushBackRoute="0"/>
+      <arc begin="10" end="11" isPushBackRoute="0"/>
+      <arc begin="11" end="10" isPushBackRoute="0"/>
+      <arc begin="11" end="12" isPushBackRoute="0"/>
+      <arc begin="12" end="11" isPushBackRoute="0"/>
+      <arc begin="12" end="13" isPushBackRoute="0"/>
+      <arc begin="13" end="12" isPushBackRoute="0"/>
+      <arc begin="13" end="14" isPushBackRoute="0"/>
+      <arc begin="14" end="13" isPushBackRoute="0"/>
+      <arc begin="14" end="15" isPushBackRoute="0"/>
+      <arc begin="15" end="14" isPushBackRoute="0"/>
+      <arc begin="15" end="16" isPushBackRoute="0"/>
+      <arc begin="16" end="15" isPushBackRoute="0"/>
+      <arc begin="16" end="17" isPushBackRoute="0"/>
+      <arc begin="17" end="16" isPushBackRoute="0"/>
+      <arc begin="17" end="18" isPushBackRoute="0"/>
+      <arc begin="18" end="17" isPushBackRoute="0"/>
+      <arc begin="18" end="19" isPushBackRoute="0"/>
+      <arc begin="19" end="18" isPushBackRoute="0"/>
+      <arc begin="19" end="2" isPushBackRoute="0"/>
+      <arc begin="2" end="19" isPushBackRoute="0"/>
+      <arc begin="16" end="20" isPushBackRoute="0"/>
+      <arc begin="20" end="16" isPushBackRoute="0"/>
+      <arc begin="20" end="21" isPushBackRoute="0"/>
+      <arc begin="21" end="20" isPushBackRoute="0"/>
+      <arc begin="21" end="1" isPushBackRoute="0"/>
+      <arc begin="1" end="21" isPushBackRoute="0"/>
+      <arc begin="0" end="22" isPushBackRoute="0"/>
+      <arc begin="22" end="0" isPushBackRoute="0"/>
+      <arc begin="22" end="23" isPushBackRoute="0"/>
+      <arc begin="23" end="22" isPushBackRoute="0"/>
+      <arc begin="23" end="24" isPushBackRoute="0"/>
+      <arc begin="24" end="23" isPushBackRoute="0"/>
+      <arc begin="24" end="25" isPushBackRoute="0"/>
+      <arc begin="25" end="24" isPushBackRoute="0"/>
+      <arc begin="25" end="26" isPushBackRoute="0"/>
+      <arc begin="26" end="25" isPushBackRoute="0"/>
+      <arc begin="26" end="10" isPushBackRoute="0"/>
+      <arc begin="10" end="26" isPushBackRoute="0"/>
+      <arc begin="10" end="27" isPushBackRoute="0"/>
+      <arc begin="27" end="10" isPushBackRoute="0"/>
+      <arc begin="27" end="0" isPushBackRoute="0"/>
+      <arc begin="0" end="27" isPushBackRoute="0"/>
+      <arc begin="26" end="11" isPushBackRoute="0"/>
+      <arc begin="11" end="26" isPushBackRoute="0"/>
+      <arc begin="1" end="1" isPushBackRoute="0"/>
+      <arc begin="1" end="17" isPushBackRoute="0"/>
+      <arc begin="17" end="1" isPushBackRoute="0"/>
+      <arc begin="1" end="20" isPushBackRoute="0"/>
+      <arc begin="20" end="1" isPushBackRoute="0"/>
+      <arc begin="2" end="2" isPushBackRoute="0"/>
+      <arc begin="2" end="18" isPushBackRoute="0"/>
+      <arc begin="18" end="2" isPushBackRoute="0"/>
+      <arc begin="18" end="28" isPushBackRoute="0"/>
+      <arc begin="28" end="18" isPushBackRoute="0"/>
+      <arc begin="28" end="29" isPushBackRoute="0"/>
+      <arc begin="29" end="28" isPushBackRoute="0"/>
+      <arc begin="29" end="30" isPushBackRoute="0"/>
+      <arc begin="30" end="29" isPushBackRoute="0"/>
+      <arc begin="30" end="31" isPushBackRoute="0"/>
+      <arc begin="31" end="30" isPushBackRoute="0"/>
+      <arc begin="31" end="32" isPushBackRoute="0"/>
+      <arc begin="32" end="31" isPushBackRoute="0"/>
+      <arc begin="32" end="33" isPushBackRoute="0"/>
+      <arc begin="33" end="32" isPushBackRoute="0"/>
+      <arc begin="33" end="34" isPushBackRoute="0"/>
+      <arc begin="34" end="33" isPushBackRoute="0"/>
+      <arc begin="34" end="35" isPushBackRoute="0"/>
+      <arc begin="35" end="34" isPushBackRoute="0"/>
+      <arc begin="35" end="36" isPushBackRoute="0"/>
+      <arc begin="36" end="35" isPushBackRoute="0"/>
+      <arc begin="36" end="37" isPushBackRoute="0"/>
+      <arc begin="37" end="36" isPushBackRoute="0"/>
+      <arc begin="37" end="38" isPushBackRoute="0"/>
+      <arc begin="38" end="37" isPushBackRoute="0"/>
+      <arc begin="38" end="38" isPushBackRoute="0"/>
+      <arc begin="39" end="29" isPushBackRoute="0"/>
+      <arc begin="29" end="39" isPushBackRoute="0"/>
+      <arc begin="17" end="28" isPushBackRoute="0"/>
+      <arc begin="28" end="17" isPushBackRoute="0"/>
+      <arc begin="40" end="8" isPushBackRoute="0"/>
+      <arc begin="8" end="40" isPushBackRoute="0"/>
+      <arc begin="41" end="42" isPushBackRoute="0"/>
+      <arc begin="42" end="41" isPushBackRoute="0"/>
+      <arc begin="42" end="43" isPushBackRoute="0"/>
+      <arc begin="43" end="42" isPushBackRoute="0"/>
+      <arc begin="43" end="44" isPushBackRoute="0"/>
+      <arc begin="44" end="43" isPushBackRoute="0"/>
+      <arc begin="44" end="15" isPushBackRoute="0"/>
+      <arc begin="15" end="44" isPushBackRoute="0"/>
+      <arc begin="44" end="14" isPushBackRoute="0"/>
+      <arc begin="14" end="44" isPushBackRoute="0"/>
+      <arc begin="45" end="43" isPushBackRoute="0"/>
+      <arc begin="43" end="45" isPushBackRoute="0"/>
+      <arc begin="46" end="47" isPushBackRoute="0"/>
+      <arc begin="47" end="46" isPushBackRoute="0"/>
+      <arc begin="47" end="48" isPushBackRoute="0"/>
+      <arc begin="48" end="47" isPushBackRoute="0"/>
+      <arc begin="48" end="12" isPushBackRoute="0"/>
+      <arc begin="12" end="48" isPushBackRoute="0"/>
+      <arc begin="13" end="48" isPushBackRoute="0"/>
+      <arc begin="48" end="13" isPushBackRoute="0"/>
+      <arc begin="49" end="47" isPushBackRoute="0"/>
+      <arc begin="47" end="49" isPushBackRoute="0"/>
+   </TaxiWaySegments>
 </groundnet>
+
